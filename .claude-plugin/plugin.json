@@ -1,7 +1,7 @@
 {
   "name": "uxkin",
   "displayName": "UXKIN",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Real UI, not AI slop. The no-ui-slop skill plus the UXKIN MCP server, so Claude looks at real app screens, user flows and website design systems before it builds a screen.",
   "author": {
     "name": "UXKIN",
@@ -11,13 +11,12 @@
   "homepage": "https://uxkin.com",
   "repository": "https://github.com/uxkin/agent",
   "license": "MIT",
-  "keywords": ["ui", "design", "frontend", "ui-references", "design-system", "mcp"],
-  "userConfig": {
-    "uxkin_token": {
-      "type": "string",
-      "title": "UXKIN agent token",
-      "description": "Your agent token from uxkin.com (log in, then open the agent setup). Needs a UXKIN plan. Leave empty to use only the free skill.",
-      "sensitive": true
-    }
-  }
+  "keywords": [
+    "ui",
+    "design",
+    "frontend",
+    "ui-references",
+    "design-system",
+    "mcp"
+  ]
 }

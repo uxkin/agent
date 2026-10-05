@@ -16,8 +16,10 @@ This repository holds UXKIN's public agent pieces:
 ## Connect the MCP server
 
 The server is hosted at `https://uxkin.com/mcp` (Streamable HTTP) and
-needs a UXKIN agent token, which comes with a UXKIN plan
-([Monthly or Lifetime](https://uxkin.com/pricing)). Send it as
+needs a UXKIN plan ([Monthly or Lifetime](https://uxkin.com/pricing)).
+Apps that support MCP sign-in (OAuth), like Claude and Claude Code,
+connect with just the URL: they open a UXKIN page where you click
+**Allow**. Other clients use a UXKIN agent token, sent as
 `Authorization: Bearer <token>` (or an `X-UXKIN-Token` header). Log in
 at [uxkin.com](https://uxkin.com) to get your token and a ready-made
 setup prompt for your agent. Setup guides:
@@ -40,12 +42,12 @@ Tools:
 This repository is also a Claude plugin (`uxkin`): one install adds the
 `no-ui-slop` skill and the UXKIN MCP server.
 
-- **Claude Code:** after installing, Claude Code asks for your UXKIN
-  agent token and sends it to `https://uxkin.com/mcp` as
-  `Authorization: Bearer <token>`. Leave it empty to use only the skill.
-- **Claude chat and Cowork:** the skill works right away; connect the
-  UXKIN server from the plugin's **Connectors** tab to search the
-  library.
+- **Claude, Claude Code and Cowork:** the skill works right away. To
+  search the library, connect the UXKIN server: Claude opens a UXKIN
+  page where you log in and click **Allow** (no token to copy). In
+  Claude Code, type `/mcp`, pick `uxkin` and choose **Authenticate**.
+  Searching needs a UXKIN plan; you can disconnect from your
+  [account](https://uxkin.com/account) any time.
 
 ## Install the skill
 
@@ -63,7 +65,7 @@ builds.
 
 The skill runs locally and sends nothing. The MCP server receives only
 the search text your agent sends (for example "onboarding for a
-meditation app"), the result limit and your token, and returns matching
+meditation app"), the result limit and your sign-in or token, and returns matching
 references from uxkin.com. It doesn't read your code, files or
 conversation. See the [privacy policy](https://uxkin.com/privacy).
 
