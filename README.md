@@ -35,6 +35,18 @@ Tools:
 - `find_ui_materials`: design systems from real websites: colors with
   their roles, typography, components and the full DESIGN.md.
 
+## Use it as a Claude plugin
+
+This repository is also a Claude plugin (`uxkin`): one install adds the
+`no-ui-slop` skill and the UXKIN MCP server.
+
+- **Claude Code:** after installing, Claude Code asks for your UXKIN
+  agent token and sends it to `https://uxkin.com/mcp` as
+  `Authorization: Bearer <token>`. Leave it empty to use only the skill.
+- **Claude chat and Cowork:** the skill works right away; connect the
+  UXKIN server from the plugin's **Connectors** tab to search the
+  library.
+
 ## Install the skill
 
 ```sh
@@ -46,6 +58,14 @@ your agent's skills folder. It's free and works on its own. With a
 UXKIN plan and the MCP server connected, your agent can also search
 real app screens, user journeys and website design systems while it
 builds.
+
+## What it sends
+
+The skill runs locally and sends nothing. The MCP server receives only
+the search text your agent sends (for example "onboarding for a
+meditation app"), the result limit and your token, and returns matching
+references from uxkin.com. It doesn't read your code, files or
+conversation. See the [privacy policy](https://uxkin.com/privacy).
 
 ## Also from UXKIN
 
