@@ -3,7 +3,7 @@
   "name": "io.github.uxkin/uxkin",
   "title": "UXKIN",
   "description": "Real UI references for coding agents: iOS app screens, user journeys and website design systems.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://uxkin.com/ui-design-mcp",
   "repository": {
     "url": "https://github.com/uxkin/agent",
@@ -13,7 +13,9 @@
     {
       "src": "https://uxkin.com/apple-icon.png",
       "mimeType": "image/png",
-      "sizes": ["180x180"]
+      "sizes": [
+        "180x180"
+      ]
     }
   ],
   "remotes": [
@@ -23,8 +25,8 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer followed by your UXKIN agent token (log in at uxkin.com to get it).",
-          "isRequired": true,
+          "description": "Optional. Clients with MCP sign-in (OAuth) just log in to UXKIN. Others send Bearer and a UXKIN agent token.",
+          "isRequired": false,
           "isSecret": true
         }
       ]
