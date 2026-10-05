@@ -1,0 +1,38 @@
+# Publishes server.json to the official MCP Registry
+# (registry.modelcontextprotocol.io), which directories and AI tools
+# read to find MCP servers. Runs when server.json changes on main, or
+# by hand (Actions → Publish to MCP Registry → Run workflow).
+#
+# No secrets: GitHub's own sign-in (OIDC) proves this workflow runs in
+# the uxkin organization, which owns the io.github.uxkin/* names.
+name: Publish to MCP Registry
+
+on:
+  push:
+    branches: [main]
+    paths: [server.json]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install mcp-publisher
+        run: |
+          curl -fsSL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+
+      - name: Sign in to the registry
+        run: ./mcp-publisher login github-oidc
+
+      - name: Publish
+        run: ./mcp-publisher publish
+
+      - name: Show the listing
+        run: |
+          curl -fsS "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin/uxkin" | head -c 2000

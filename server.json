@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.uxkin/uxkin",
+  "title": "UXKIN",
+  "description": "Real UI references for coding agents: iOS app screens, user journeys and website design systems.",
+  "version": "1.0.0",
+  "websiteUrl": "https://uxkin.com/ui-design-mcp",
+  "repository": {
+    "url": "https://github.com/uxkin/agent",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://uxkin.com/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://uxkin.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your UXKIN agent token (log in at uxkin.com to get it).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
