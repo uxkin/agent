@@ -16,9 +16,11 @@ This repository holds UXKIN's public agent pieces:
 ## Connect the MCP server
 
 The server is hosted at `https://uxkin.com/mcp` (Streamable HTTP) and
-needs a UXKIN agent token, sent as `Authorization: Bearer <token>`.
-Log in at [uxkin.com](https://uxkin.com) to get your token and a
-ready-made setup prompt for your agent. Setup guides:
+needs a UXKIN agent token, which comes with a UXKIN plan
+([Monthly or Lifetime](https://uxkin.com/pricing)). Send it as
+`Authorization: Bearer <token>` (or an `X-UXKIN-Token` header). Log in
+at [uxkin.com](https://uxkin.com) to get your token and a ready-made
+setup prompt for your agent. Setup guides:
 [Claude Code](https://uxkin.com/claude-code-ui-design),
 [Cursor](https://uxkin.com/cursor-ui-design),
 [Codex](https://uxkin.com/codex-ui-design),
@@ -40,8 +42,10 @@ npx skills add uxkin/agent
 ```
 
 Or copy [`skills/no-ui-slop/SKILL.md`](skills/no-ui-slop/SKILL.md) into
-your agent's skills folder. It works on its own; with the UXKIN MCP
-server connected it can also look up real references.
+your agent's skills folder. It's free and works on its own. With a
+UXKIN plan and the MCP server connected, your agent can also search
+real app screens, user journeys and website design systems while it
+builds.
 
 ## Also from UXKIN
 
