@@ -19,6 +19,11 @@ MCP tools are connected, it can also use:
 - `find_ui_references`: real apps, screens, journeys and websites
 - `find_ui_materials`: colors, typography, components and DESIGN.md
   content from real web design systems
+- `get_journey`: every screen of a journey result, in order; open a
+  promising journey to study the whole flow, not just its first screen
+- `list_collections` / `get_collection`: references the person saved on
+  UXKIN; when they mention a collection or their saved picks, use those
+  first
 
 The tools add context; they never block the task. If they are not
 available, or a search returns nothing useful, carry on without them.

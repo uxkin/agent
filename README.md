@@ -36,6 +36,9 @@ Tools:
   websites.
 - `find_ui_materials`: design systems from real websites: colors with
   their roles, typography, components and the full DESIGN.md.
+- `get_journey`: every screen of one journey from a search, in order.
+- `list_collections` / `get_collection`: the references you saved into
+  collections on uxkin.com.
 
 ## Use it as a Claude plugin
 
