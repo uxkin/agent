@@ -72,6 +72,13 @@ meditation app"), the result limit and your sign-in or token, and returns matchi
 references from uxkin.com. It doesn't read your code, files or
 conversation. See the [privacy policy](https://uxkin.com/privacy).
 
+## Documentation and support
+
+- [Documentation](https://uxkin.com/docs): setup for Claude, Cursor,
+  Codex and other agents, and what each tool returns.
+- [Support](https://uxkin.com/contact): questions, problems and
+  account help, or email support@uxkin.com.
+
 ## Also from UXKIN
 
 [uxkin/ui-check](https://github.com/uxkin/ui-check): a free GitHub
