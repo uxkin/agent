@@ -1,0 +1,16 @@
+{
+  "name": "uxkin",
+  "owner": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com"
+  },
+  "metadata": {
+    "description": "UXKIN plugins for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "uxkin",
+      "source": "."
+    }
+  ]
+}

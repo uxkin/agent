@@ -12,13 +12,15 @@ This repository holds UXKIN's public agent pieces:
   [official MCP Registry](https://registry.modelcontextprotocol.io).
 - **The `no-ui-slop` skill** (`skills/no-ui-slop`), free and usable
   without an account.
+- **The UXKIN plugin** for Claude (`.claude-plugin`) and Cursor
+  (`.cursor-plugin`): the skill and the MCP server together.
 
 ## Connect the MCP server
 
 The server is hosted at `https://uxkin.com/mcp` (Streamable HTTP) and
 needs a UXKIN plan ([Monthly or Lifetime](https://uxkin.com/pricing)).
-Apps that support MCP sign-in (OAuth), like Claude and Claude Code,
-connect with just the URL: they open a UXKIN page where you click
+Apps that support MCP sign-in (OAuth), like Claude, Claude Code,
+Cursor and Codex, connect with just the URL: they open a UXKIN page where you click
 **Allow**. Other clients use a UXKIN agent token, sent as
 `Authorization: Bearer <token>` (or an `X-UXKIN-Token` header). Log in
 at [uxkin.com](https://uxkin.com) to get your token and a ready-made
@@ -51,6 +53,14 @@ This repository is also a Claude plugin (`uxkin`): one install adds the
   Claude Code, type `/mcp`, pick `uxkin` and choose **Authenticate**.
   Searching needs a UXKIN plan; you can disconnect from your
   [account](https://uxkin.com/account) any time.
+
+## Use it as a Cursor plugin
+
+The Cursor plugin bundles the same skill and server (`.cursor-plugin`,
+`mcp.json`). After installing it, click **Login** next to uxkin in
+Cursor's MCP settings, log in to UXKIN and click **Allow**. To add only
+the server, use the one-click link on
+[uxkin.com/cursor-ui-design](https://uxkin.com/cursor-ui-design).
 
 ## Install the skill
 
