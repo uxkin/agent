@@ -1,0 +1,10 @@
+# Add to ~/.codex/config.toml (or run: codex mcp add uxkin --url https://uxkin.com/mcp)
+# Then sign in once: codex mcp login uxkin
+[mcp_servers.uxkin]
+url = "https://uxkin.com/mcp"
+
+# Using a token instead of signing in? Use this version and set UXKIN_TOKEN
+# in your environment. Never paste the token itself into this file.
+# [mcp_servers.uxkin]
+# url = "https://uxkin.com/mcp"
+# bearer_token_env_var = "UXKIN_TOKEN"

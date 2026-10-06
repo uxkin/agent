@@ -66,7 +66,7 @@ apps sign in with your UXKIN account: no token to copy.
 | **Claude** (web, desktop, mobile) | Open [UXKIN in Claude's directory](https://claude.ai/directory/uxkin), click **Connect**, log in and click **Allow** |
 | **Claude Code** | `claude mcp add --scope user --transport http uxkin https://uxkin.com/mcp`, then `/mcp` → uxkin → **Authenticate** |
 | **Cursor** | One-click install on [uxkin.com/cursor-ui-design](https://uxkin.com/cursor-ui-design), then **Login** next to uxkin |
-| **Codex** | `codex mcp add uxkin --url https://uxkin.com/mcp`, then `codex mcp login uxkin` |
+| **Codex** | `codex mcp add uxkin --url https://uxkin.com/mcp`, then `codex mcp login uxkin` (or install the [Codex plugin](#use-it-as-a-codex-plugin)) |
 | **GitHub Copilot** (VS Code) | Command Palette → **MCP: Add Server** → HTTP → `https://uxkin.com/mcp`, then sign in when asked ([guide](https://uxkin.com/github-copilot-ui-design)) |
 | **Lovable, Bolt, Devin Desktop** | Add a custom MCP server with the URL above ([Lovable](https://uxkin.com/lovable-ui-design), [Bolt](https://uxkin.com/bolt-ui-design), [Devin Desktop / Windsurf](https://uxkin.com/windsurf-ui-design)) |
 | **Any other MCP client** | Use the setup prompt from [uxkin.com](https://uxkin.com) (a token sent as `Authorization: Bearer <token>`) |
@@ -97,11 +97,14 @@ All tools are read-only.
 ## What's in this repository
 
 - **The `no-ui-slop` skill** ([`skills/no-ui-slop`](skills/no-ui-slop)).
-- **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)) and
-  Cursor ([`.cursor-plugin`](.cursor-plugin)): the skill and the MCP server
-  in one install.
+- **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
+  Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
+  ([`.codex-plugin`](.codex-plugin)): the skill and the MCP server in one
+  install.
 - **The MCP server listing** ([`server.json`](server.json)), published to the
   [official MCP Registry](https://registry.modelcontextprotocol.io).
+- **Examples** ([`examples`](examples)): config files for each app, project
+  instructions for your `AGENTS.md` or `CLAUDE.md`, and example prompts.
 
 ### Use it as a Claude plugin
 
@@ -114,6 +117,16 @@ where you log in and click **Allow**). In Claude Code, type `/mcp`, pick
 
 After installing, click **Login** next to uxkin in Cursor's MCP settings,
 log in to UXKIN and click **Allow**.
+
+### Use it as a Codex plugin
+
+```sh
+codex plugin marketplace add uxkin/agent
+codex plugin add uxkin@uxkin
+codex mcp login uxkin
+```
+
+The last command opens a UXKIN page where you log in and click **Allow**.
 
 ## What it sends
 
@@ -129,6 +142,12 @@ from uxkin.com. It doesn't read your code, files or conversation. See the
 - [Guides](https://uxkin.com/guides): better UI with Claude Code, Cursor, Codex, Copilot, Lovable, Bolt and more.
 - [Support](https://uxkin.com/contact), or email support@uxkin.com.
 - [Affiliate program](https://uxkin.com/affiliates): earn 30% of every payment from people you bring to UXKIN.
+
+## Contributing and security
+
+Fixes to the skill, setup steps and examples are welcome: see
+[CONTRIBUTING.md](CONTRIBUTING.md). To report a security problem, see
+[SECURITY.md](SECURITY.md).
 
 ## License
 

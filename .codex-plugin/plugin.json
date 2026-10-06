@@ -1,0 +1,29 @@
+{
+  "name": "uxkin",
+  "version": "1.0.0",
+  "description": "Real UI, not AI slop. The no-ui-slop skill plus the UXKIN MCP server, so Codex looks at real app screens, user flows and website design systems before it builds a screen.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "keywords": ["ui", "design", "frontend", "ui-references", "design-system", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "UXKIN",
+    "shortDescription": "Real app screens, user flows and design systems for the UI you build",
+    "longDescription": "Adds the free no-ui-slop skill, which keeps Codex from shipping generic, AI-looking UI, and the UXKIN MCP server, which searches 63,589 real iOS screens, 1,991 user journeys and 1,288 website design systems. The skill works on its own; searching needs a UXKIN plan.",
+    "developerName": "UXKIN",
+    "category": "Coding",
+    "capabilities": ["Read"],
+    "websiteURL": "https://uxkin.com",
+    "privacyPolicyURL": "https://uxkin.com/privacy",
+    "termsOfServiceURL": "https://uxkin.com/terms",
+    "logo": "./.claude-plugin/icon.png",
+    "composerIcon": "./.claude-plugin/icon.png"
+  }
+}

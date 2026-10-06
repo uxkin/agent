@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "uxkin": {
+      "type": "http",
+      "url": "https://uxkin.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${UXKIN_TOKEN}"
+      }
+    }
+  }
+}
