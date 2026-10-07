@@ -22,6 +22,18 @@ Using the Claude app? Connect from [Claude's directory](https://claude.ai/direct
 instead. Get a token, if you need one, from [uxkin.com](https://uxkin.com)
 while logged in. Never commit it.
 
+## Worked examples
+
+What changes when an agent looks at real flows before building, step by
+step, with real results from the UXKIN library:
+
+- [`account-deletion.md`](account-deletion.md): from a single "Are you
+  sure?" alert to a flow based on 14 real apps.
+- [`subscription-cancellation.md`](subscription-cancellation.md): where
+  cancelling lives, and how much feedback to ask for.
+- [`mobile-onboarding.md`](mobile-onboarding.md): why the best onboardings
+  end inside the app, not on a "Get started" card.
+
 ## Use it
 
 - [`AGENTS.md`](AGENTS.md): project instructions that tell your agent

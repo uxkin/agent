@@ -111,7 +111,9 @@ All tools are read-only.
 - **Where UXKIN is listed** ([`DISTRIBUTION.md`](DISTRIBUTION.md)): every
   registry, app store and directory, and where each one stands.
 - **Examples** ([`examples`](examples)): config files for each app, project
-  instructions for your `AGENTS.md` or `CLAUDE.md`, and example prompts.
+  instructions for your `AGENTS.md` or `CLAUDE.md`, example prompts, and
+  worked examples (account deletion, subscription cancellation, mobile
+  onboarding) showing what an agent does differently with UXKIN.
 
 ### Use it as a Claude plugin
 
