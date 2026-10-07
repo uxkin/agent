@@ -181,4 +181,7 @@ Fixes to the skill, setup steps and examples are welcome: see
 ## License
 
 The skill and the files in this repository are MIT licensed. The UXKIN
-library itself is a hosted service: see the [terms](https://uxkin.com/terms).
+library itself (its screens, journeys and design systems) is a hosted
+service, not part of this repository: see the
+[terms](https://uxkin.com/terms). The MIT license covers the code and text
+here; it doesn't grant use of the UXKIN name or logo.
