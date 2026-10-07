@@ -105,6 +105,9 @@ All tools are read-only.
   server in one install.
 - **The MCP server listing** ([`server.json`](server.json)), published to the
   [official MCP Registry](https://registry.modelcontextprotocol.io).
+- **UXKIN's own design system** ([`DESIGN.md`](DESIGN.md)): UXKIN exports a
+  DESIGN.md for every website in its library, and UXKIN itself is built from
+  one. Hand it to your agent to see the format in action.
 - **Examples** ([`examples`](examples)): config files for each app, project
   instructions for your `AGENTS.md` or `CLAUDE.md`, and example prompts.
 
