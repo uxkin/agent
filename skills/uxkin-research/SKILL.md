@@ -1,10 +1,10 @@
 ---
-name: ui-research
+name: uxkin-research
 description: 'Research how real products handle a screen, flow or visual style before designing it. Use when the person asks how other apps do something, wants UI inspiration, comparable apps, examples of a user flow (onboarding, sign-up, checkout, paywall, cancellation, account deletion, settings, empty states), or a design system to start from, and when a design decision needs evidence: search the UXKIN library of real iOS screens, full user journeys and website design systems, compare several, and report what they have in common.'
 license: MIT
 ---
 
-# UI research
+# UXKIN research
 
 When a design decision depends on how real products do it, look at
 several real examples, compare them properly and report what they show,
