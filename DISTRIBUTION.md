@@ -58,6 +58,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | Submitted Oct 7 (github/awesome-copilot#4626): passed intake, waiting for maintainer review |
 | Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery topic added Oct 7 |
 | Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form sent Oct 7 |
+| Kiro | Power from this repo ([`POWER.md`](POWER.md), [`steering/`](steering)): Powers → Add Custom Power → Import from GitHub | Live from GitHub; Kiro's curated directory has no public submission yet |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
 
 ### Skills

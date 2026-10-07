@@ -117,6 +117,20 @@ check("files the manifests point to exist", () => {
   for (const path of paths) assert.ok(existsSync(join(root, path)), `missing: ${path}`);
 });
 
+check("Kiro power: required fields, its server exists, steering files exist", () => {
+  const power = read("POWER.md");
+  const front = power.match(/^---\n([\s\S]*?)\n---/);
+  assert.ok(front, "POWER.md: no frontmatter");
+  for (const field of ["name", "displayName", "description", "keywords", "author"]) {
+    assert.match(front[1], new RegExp(`^${field}: .+`, "m"), `POWER.md: missing ${field}`);
+  }
+  assert.match(front[1], /^name: "uxkin"$/m, "POWER.md: name must stay \"uxkin\" (changing it forces a reinstall)");
+  assert.ok(json("mcp.json").mcpServers.uxkin, "mcp.json: no uxkin server for the power");
+  for (const [, file] of power.matchAll(/`(steering\/[^`]+\.md)`/g)) {
+    assert.ok(existsSync(join(root, file)), `POWER.md mentions ${file}, which doesn't exist`);
+  }
+});
+
 // --live: the numbers we quote must not be bigger than the library
 // (never overclaim) or noticeably smaller (stale).
 if (process.argv.includes("--live")) {

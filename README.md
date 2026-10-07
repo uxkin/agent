@@ -110,7 +110,8 @@ All tools are read-only.
 - **The `no-ui-slop` skill** ([`skills/no-ui-slop`](skills/no-ui-slop)).
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
-  ([`.codex-plugin`](.codex-plugin)), the Google Antigravity plugin
+  ([`.codex-plugin`](.codex-plugin)), the Kiro power ([`POWER.md`](POWER.md)),
+  the Google Antigravity plugin
   ([`plugin.json`](plugin.json)) and the Gemini CLI extension
   ([`gemini-extension.json`](gemini-extension.json)): the skill and the MCP
   server in one install.
@@ -158,6 +159,13 @@ agy plugin install ./uxkin
 Then type `/mcp`, pick `uxkin` and choose **Authenticate**: a UXKIN page
 opens where you log in and click **Allow**. To add only the server, put
 [`mcp_config.json`](mcp_config.json) in `~/.gemini/config/mcp_config.json`.
+
+### Use it as a Kiro power
+
+In Kiro, open the **Powers** panel → **Add Custom Power** → **Import power
+from GitHub**, and enter `https://github.com/uxkin/agent`. When Kiro asks
+to authenticate `uxkin`, click **Authenticate**, log in to UXKIN and click
+**Allow**.
 
 ### Use it as a Gemini CLI extension
 

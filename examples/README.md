@@ -15,6 +15,7 @@ copy.
 | [`connect/codex.config.toml`](connect/codex.config.toml) | Codex | `~/.codex/config.toml`, then `codex mcp login uxkin` |
 | [`connect/antigravity.mcp_config.json`](connect/antigravity.mcp_config.json) | Google Antigravity (app, IDE and CLI) | `~/.gemini/config/mcp_config.json`, then `/mcp` → uxkin → **Authenticate** |
 | [`connect/gemini.settings.json`](connect/gemini.settings.json) | Gemini CLI | `~/.gemini/settings.json`, then `/mcp auth uxkin` inside Gemini CLI |
+| [`connect/kiro.mcp.json`](connect/kiro.mcp.json) | Kiro | `~/.kiro/settings/mcp.json` (all projects) or `.kiro/settings/mcp.json`, then **Authenticate** when Kiro asks |
 | [`connect/vscode.mcp.json`](connect/vscode.mcp.json) | GitHub Copilot in VS Code | `.vscode/mcp.json` in your project, then **Allow** when VS Code asks to sign in |
 | [`connect/claude-code-token.mcp.json`](connect/claude-code-token.mcp.json) | Any setup that can't sign in | Uses a token from the `UXKIN_TOKEN` environment variable |
 
