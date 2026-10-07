@@ -40,7 +40,6 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Reads the official registry | Automatic: confirm |
 | mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
-| Smithery | Publish page at smithery.ai/new | Listed: confirm it's current |
 | MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and skill, free queue) |
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
