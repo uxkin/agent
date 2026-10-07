@@ -37,13 +37,13 @@ up from another listing, nothing to submit, just confirm it appeared.
 |-------|-------------------|--------|
 | [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin) | `server.json`, published by the *Publish to MCP Registry* workflow | Live as `io.github.uxkin/uxkin` |
 | GitHub MCP Registry (github.com/mcp) | Curated by GitHub from the official registry | To check |
-| Glama | Reads the official registry | Automatic: confirm, then claim the listing |
+| Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Reads the official registry | Automatic: confirm |
 | mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
 | Smithery | Publish page at smithery.ai/new | Listed: confirm it's current |
-| MCP Market (mcpmarket.com) | Submit form | To do |
-| MCPServers.org | Submit form at mcpservers.org/submit | To do |
-| Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | To do: submit the issue |
+| MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and skill, free queue) |
+| MCPServers.org | Submit form at mcpservers.org/submit | Submitted Oct 7 (Design, free) |
+| Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
 
 ### AI apps
 
@@ -55,9 +55,9 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live; plugin directory in review |
 | GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
 | GitHub Copilot CLI | Plugin from this repo ([`.github/plugin`](.github/plugin)): `copilot plugin install uxkin/agent` | Live from GitHub |
-| [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | To do: submit the form |
-| Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery needs the `gemini-cli-extension` topic on this repo |
-| Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form to do |
+| [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | Submitted Oct 7 (github/awesome-copilot#4626): passed intake, waiting for maintainer review |
+| Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery topic added Oct 7 |
+| Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form sent Oct 7 |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
 
 ### Skills
