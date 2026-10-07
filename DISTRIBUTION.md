@@ -43,7 +43,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Smithery | Publish page at smithery.ai/new | Listed: confirm it's current |
 | MCP Market (mcpmarket.com) | Submit form | To do |
 | MCPServers.org | Submit form at mcpservers.org/submit | To do |
-| Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with a 400×400 logo | To do |
+| Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | To do: submit the issue |
 
 ### AI apps
 
