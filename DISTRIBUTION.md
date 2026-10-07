@@ -1,0 +1,89 @@
+# Where UXKIN is distributed
+
+Every place people can find or install UXKIN, and where each one stands.
+This file is the checklist: when a listing goes live, changes or needs
+updating, it changes here in the same commit.
+
+## What gets distributed
+
+| Piece | Source of truth | Mirrors |
+|-------|-----------------|---------|
+| MCP server | `https://uxkin.com/mcp` (sign in with UXKIN, or a UXKIN agent token) | [`server.json`](server.json), [`.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json) |
+| `no-ui-slop` skill | [`uxkin.com/.well-known/agent-skills/`](https://uxkin.com/.well-known/agent-skills/index.json) | [`skills/no-ui-slop`](skills/no-ui-slop) (checked weekly by the *Skill matches uxkin.com* workflow) |
+| Plugins | This repository | Claude, Cursor, Codex, Gemini CLI and Antigravity packaging below |
+| Browser extension | The UXKIN site repository | Chrome Web Store |
+| Figma plugin | The UXKIN site repository | Figma Community |
+
+Production (uxkin.com) always wins: if a copy here differs from what
+uxkin.com serves, the copy here is the one to fix.
+
+## Status
+
+**Live**: anyone can find or install it today. **In review**: submitted,
+waiting for the store. **To do**: not submitted yet. **Automatic**: picked
+up from another listing, nothing to submit, just confirm it appeared.
+
+### Our own
+
+| Where | What | Status |
+|-------|------|--------|
+| [uxkin.com](https://uxkin.com) | Setup steps for each app, the setup prompt, docs at [/docs](https://uxkin.com/docs) | Live |
+| [GitHub: uxkin/agent](https://github.com/uxkin/agent) | Skill, plugins, `server.json`, `DESIGN.md`, examples | Live |
+| [uxkin.com/status](https://uxkin.com/status) | Public status of the library, sign-in, the MCP server and payments | Live |
+
+### MCP registries
+
+| Where | How it gets there | Status |
+|-------|-------------------|--------|
+| [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin) | `server.json`, published by the *Publish to MCP Registry* workflow | Live as `io.github.uxkin/uxkin` |
+| GitHub MCP Registry (github.com/mcp) | Curated by GitHub from the official registry | To check |
+| Glama | Reads the official registry | Automatic: confirm, then claim the listing |
+| PulseMCP | Reads the official registry | Automatic: confirm |
+| mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
+| Smithery | Publish page at smithery.ai/new | Listed: confirm it's current |
+| MCP Market (mcpmarket.com) | Submit form | To do |
+| MCPServers.org | Submit form at mcpservers.org/submit | To do |
+| Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with a 400×400 logo | To do |
+
+### AI apps
+
+| Where | What | Status |
+|-------|------|--------|
+| Claude (connector directory) | The UXKIN connector: Claude app, Claude Code, Claude Desktop | Live |
+| Claude (plugin directory) | The UXKIN plugin, version 1.2.2 | Update in review |
+| Codex | Plugin from this repo: `codex plugin marketplace add uxkin/agent` | Live from GitHub; OpenAI directory listing in review |
+| Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live; plugin directory in review |
+| GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
+| [Awesome Copilot](https://github.com/github/awesome-copilot) | The skill and plugin, by pull request to the `staged` branch | To do |
+| Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery needs the `gemini-cli-extension` topic on this repo |
+| Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form to do |
+| Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
+
+### Skills
+
+| Where | What | Status |
+|-------|------|--------|
+| `npx skills add uxkin/agent` (skills.sh) | The skill, installable into most coding agents | Live |
+| `npx skills add https://uxkin.com` | The same skill, straight from uxkin.com | Live |
+| Skill collections on GitHub | Pull requests to community skill lists | To do: pick the active ones |
+
+### Design tools and browsers
+
+| Where | What | Status |
+|-------|------|--------|
+| Figma Community | UXKIN for Figma | Live; new version (code sign-in) in review |
+| Chrome Web Store | UXKIN.com extension: copy any website's colors, fonts and sizes as a DESIGN.md | In review |
+
+## Keeping listings right
+
+- **Version bumps**: change `version` in `server.json` and the plugin
+  manifests together; the registry workflow republishes on push.
+- **Tool changes**: the server card, `server.json` description, README
+  tool table and the store descriptions all name the five tools
+  (`find_ui_references`, `find_ui_materials`, `get_journey`,
+  `list_collections`, `get_collection`).
+- **Wording**: every listing uses the same one-line description:
+  *Real UI references for coding agents: iOS app screens, user journeys
+  and website design systems.*
+- **Links**: listings point to https://uxkin.com, never to a page that
+  only exists for one store.
