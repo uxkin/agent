@@ -13,6 +13,7 @@ copy.
 | [`connect/claude-code.mcp.json`](connect/claude-code.mcp.json) | Claude Code | `.mcp.json` in your project, then `/mcp` → uxkin → **Authenticate** |
 | [`connect/cursor.mcp.json`](connect/cursor.mcp.json) | Cursor | `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json`, then **Login** next to uxkin |
 | [`connect/codex.config.toml`](connect/codex.config.toml) | Codex | `~/.codex/config.toml`, then `codex mcp login uxkin` |
+| [`connect/gemini.settings.json`](connect/gemini.settings.json) | Gemini CLI | `~/.gemini/settings.json`, then `/mcp auth uxkin` inside Gemini CLI |
 | [`connect/vscode.mcp.json`](connect/vscode.mcp.json) | GitHub Copilot in VS Code | `.vscode/mcp.json` in your project, then **Allow** when VS Code asks to sign in |
 | [`connect/claude-code-token.mcp.json`](connect/claude-code-token.mcp.json) | Any setup that can't sign in | Uses a token from the `UXKIN_TOKEN` environment variable |
 

@@ -99,8 +99,9 @@ All tools are read-only.
 - **The `no-ui-slop` skill** ([`skills/no-ui-slop`](skills/no-ui-slop)).
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
-  ([`.codex-plugin`](.codex-plugin)): the skill and the MCP server in one
-  install.
+  ([`.codex-plugin`](.codex-plugin)), and the Gemini CLI extension
+  ([`gemini-extension.json`](gemini-extension.json)): the skill and the MCP
+  server in one install.
 - **The MCP server listing** ([`server.json`](server.json)), published to the
   [official MCP Registry](https://registry.modelcontextprotocol.io).
 - **Examples** ([`examples`](examples)): config files for each app, project
@@ -127,6 +128,15 @@ codex mcp login uxkin
 ```
 
 The last command opens a UXKIN page where you log in and click **Allow**.
+
+### Use it as a Gemini CLI extension
+
+```sh
+gemini extensions install https://github.com/uxkin/agent
+```
+
+Then start Gemini CLI and type `/mcp auth uxkin`: a UXKIN page opens where
+you log in and click **Allow**.
 
 ## What it sends
 
