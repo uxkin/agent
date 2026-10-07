@@ -1,7 +1,7 @@
 {
   "name": "uxkin",
   "description": "Real UI, not AI slop. The no-ui-slop skill plus the UXKIN MCP server, so Copilot looks at real app screens, user flows and website design systems before it builds a screen.",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "author": {
     "name": "UXKIN",
     "email": "support@uxkin.com",

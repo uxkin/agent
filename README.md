@@ -49,23 +49,29 @@ the actual colors, type and components of real websites.
 
 | What | For | Cost |
 | :- | :- | :- |
-| [**`no-ui-slop` skill**](#1-install-the-free-no-ui-slop-skill) | Rules that keep your agent from shipping generic, AI-looking UI | Free, no account |
+| [**`no-ui-slop` skill**](#1-install-the-free-skills) | Rules that keep your agent from shipping generic, AI-looking UI | Free, no account |
+| [**`ui-research` skill**](#1-install-the-free-skills) | How your agent finds and compares real apps, flows and design systems before it designs | Free; searching needs a UXKIN plan |
 | [**UXKIN MCP server**](#2-connect-the-uxkin-mcp-server) | Your agent searches real screens, journeys and design systems while it builds | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) |
 | [**UI Check GitHub Action**](https://github.com/uxkin/ui-check) | Flags dead buttons, missing states, one-off colors and accessibility basics in every pull request | Free |
 | [**AI Slop Detector**](https://uxkin.com/tools/ai-slop-detector?utm_source=github&utm_medium=readme) | See how AI-generated your website looks, and what to change | Free |
 | **UXKIN for Figma** | Search UXKIN, place screens and whole flows on the canvas, import a site's colors and type | Coming soon to Figma Community |
 | **Browser extension** | Copy any website's colors, fonts and sizes as a DESIGN.md | Coming soon to the Chrome Web Store |
 
-### 1. Install the free no-ui-slop skill
+### 1. Install the free skills
 
 ```sh
 npx skills add uxkin/agent
 ```
 
-Or copy [`skills/no-ui-slop/SKILL.md`](skills/no-ui-slop/SKILL.md) into
-your agent's skills folder. It works on its own, with no account. With
-the UXKIN server connected, it also tells your agent when to look up a
-real reference.
+That installs both, or copy them into your agent's skills folder:
+
+- [`skills/no-ui-slop`](skills/no-ui-slop/SKILL.md): how to build UI that
+  fits the product. Works on its own, with no account; with the UXKIN
+  server connected, it also tells your agent when to look up a real
+  reference.
+- [`skills/ui-research`](skills/ui-research/SKILL.md): how to research
+  before designing: search the UXKIN library in plain words, open whole
+  journeys, compare several apps and report what they have in common.
 
 ### 2. Connect the UXKIN MCP server
 
@@ -107,7 +113,7 @@ All tools are read-only.
 
 ## What's in this repository
 
-- **The `no-ui-slop` skill** ([`skills/no-ui-slop`](skills/no-ui-slop)).
+- **The `no-ui-slop` and `ui-research` skills** ([`skills`](skills)).
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
   ([`.codex-plugin`](.codex-plugin)), the Kiro power ([`POWER.md`](POWER.md)),

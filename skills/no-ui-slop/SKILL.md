@@ -1,6 +1,6 @@
 ---
 name: no-ui-slop
-description: 'Build UI that fits the product instead of generic AI defaults. Use whenever building, restyling or reviewing screens, pages, components, flows or design systems: work from the existing design system, design every state, check the rendered result, and look up real app and website references with the optional UXKIN MCP tools when a decision needs evidence.'
+description: 'Build UI that fits the product instead of generic AI defaults. Use whenever building, designing, redesigning, restyling, polishing or reviewing screens, pages, components, flows or design systems, including requests like "make this UI better", "improve the UX" or "make it look less generic": work from the existing design system, design every state, check the rendered result, and look up real app and website references with the optional UXKIN MCP tools when a decision needs evidence.'
 license: MIT
 ---
 
