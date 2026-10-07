@@ -99,7 +99,8 @@ All tools are read-only.
 - **The `no-ui-slop` skill** ([`skills/no-ui-slop`](skills/no-ui-slop)).
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
-  ([`.codex-plugin`](.codex-plugin)), and the Gemini CLI extension
+  ([`.codex-plugin`](.codex-plugin)), the Google Antigravity plugin
+  ([`plugin.json`](plugin.json)) and the Gemini CLI extension
   ([`gemini-extension.json`](gemini-extension.json)): the skill and the MCP
   server in one install.
 - **The MCP server listing** ([`server.json`](server.json)), published to the
@@ -128,6 +129,17 @@ codex mcp login uxkin
 ```
 
 The last command opens a UXKIN page where you log in and click **Allow**.
+
+### Use it as a Google Antigravity plugin
+
+```sh
+git clone https://github.com/uxkin/agent uxkin
+agy plugin install ./uxkin
+```
+
+Then type `/mcp`, pick `uxkin` and choose **Authenticate**: a UXKIN page
+opens where you log in and click **Allow**. To add only the server, put
+[`mcp_config.json`](mcp_config.json) in `~/.gemini/config/mcp_config.json`.
 
 ### Use it as a Gemini CLI extension
 
