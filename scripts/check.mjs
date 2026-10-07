@@ -52,6 +52,11 @@ const MANIFESTS = [
 ];
 check("all plugin manifests and server.json share one version", () => {
   const versions = Object.fromEntries(MANIFESTS.map(file => [file, json(file).version]));
+  for (const file of [".claude-plugin/marketplace.json", ".github/plugin/marketplace.json"]) {
+    const market = json(file);
+    versions[`${file} (metadata)`] = market.metadata.version;
+    for (const plugin of market.plugins) versions[`${file} (${plugin.name})`] = plugin.version;
+  }
   const distinct = new Set(Object.values(versions));
   assert.equal(distinct.size, 1, `versions differ: ${JSON.stringify(versions, null, 2)}`);
   assert.match([...distinct][0], /^\d+\.\d+\.\d+$/);

@@ -140,6 +140,14 @@ away; to search the library, connect the server (Claude opens a UXKIN page
 where you log in and click **Allow**). In Claude Code, type `/mcp`, pick
 `uxkin` and choose **Authenticate**.
 
+
+In Claude Code you can also add it from GitHub directly:
+
+```sh
+claude plugin marketplace add uxkin/agent
+claude plugin install uxkin@uxkin
+```
+
 ### Use it as a Cursor plugin
 
 After installing, click **Login** next to uxkin in Cursor's MCP settings,

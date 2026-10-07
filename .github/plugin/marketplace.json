@@ -1,0 +1,31 @@
+{
+  "name": "uxkin",
+  "owner": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com"
+  },
+  "metadata": {
+    "description": "Real UI references for coding agents: the free no-ui-slop and uxkin-research skills plus the UXKIN MCP server (real iOS screens, user journeys and website design systems).",
+    "version": "1.3.0"
+  },
+  "plugins": [
+    {
+      "name": "uxkin",
+      "source": "./",
+      "description": "Real UI references for coding agents: the free no-ui-slop and uxkin-research skills plus the UXKIN MCP server (real iOS screens, user journeys and website design systems).",
+      "version": "1.3.0",
+      "category": "Development",
+      "homepage": "https://uxkin.com",
+      "repository": "https://github.com/uxkin/agent",
+      "license": "MIT",
+      "keywords": [
+        "ui",
+        "design",
+        "frontend",
+        "ui-references",
+        "design-system",
+        "mcp"
+      ]
+    }
+  ]
+}
