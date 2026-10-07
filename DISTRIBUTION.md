@@ -54,7 +54,8 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Codex | Plugin from this repo: `codex plugin marketplace add uxkin/agent` | Live from GitHub; OpenAI directory listing in review |
 | Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live; plugin directory in review |
 | GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
-| [Awesome Copilot](https://github.com/github/awesome-copilot) | The skill and plugin, by pull request to the `staged` branch | To do |
+| GitHub Copilot CLI | Plugin from this repo ([`.github/plugin`](.github/plugin)): `copilot plugin install uxkin/agent` | Live from GitHub |
+| [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | To do: submit the form |
 | Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery needs the `gemini-cli-extension` topic on this repo |
 | Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form to do |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
