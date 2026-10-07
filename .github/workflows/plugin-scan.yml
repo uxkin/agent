@@ -20,9 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Scan the plugin
-        uses: hashgraph-online/ai-plugin-scanner-action@917a3c09b5ec5c2cc264779485da3c0b5ea6a69f # v1.2.99
+        uses: hashgraph-online/ai-plugin-scanner-action@9a85f17293940b730c459e0702d42af9e6e049e1 # v1.2.763
         with:
           plugin_dir: "."
           mode: scan
