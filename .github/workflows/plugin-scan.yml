@@ -1,0 +1,32 @@
+# Security and quality scan of the plugin packaging (Claude, Codex,
+# Cursor, Gemini): risky skill instructions, hard-coded secrets, unsafe
+# MCP settings, unpinned actions. Results appear under Security → Code
+# scanning; the build fails on a high-severity finding or a score
+# below 85.
+name: Plugin scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Scan the plugin
+        uses: hashgraph-online/ai-plugin-scanner-action@917a3c09b5ec5c2cc264779485da3c0b5ea6a69f # v1.2.99
+        with:
+          plugin_dir: "."
+          mode: scan
+          min_score: 85
+          fail_on_severity: high
+          format: sarif
+          upload_sarif: true

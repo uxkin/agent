@@ -3,7 +3,7 @@
   "name": "io.github.uxkin/uxkin",
   "title": "UXKIN",
   "description": "Real UI references for coding agents: iOS app screens, user journeys and website design systems.",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "websiteUrl": "https://uxkin.com/ui-design-mcp",
   "repository": {
     "url": "https://github.com/uxkin/agent",

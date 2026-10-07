@@ -1,0 +1,7 @@
+# Not part of the installed plugin.
+.git/
+.github/
+examples/
+*.log
+.env
+.env.*

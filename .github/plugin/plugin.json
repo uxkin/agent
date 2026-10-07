@@ -10,7 +10,14 @@
   "homepage": "https://uxkin.com",
   "repository": "https://github.com/uxkin/agent",
   "license": "MIT",
-  "keywords": ["ui", "design", "frontend", "ui-references", "design-system", "mcp"],
+  "keywords": [
+    "ui",
+    "design",
+    "frontend",
+    "ui-references",
+    "design-system",
+    "mcp"
+  ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json"
 }

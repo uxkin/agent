@@ -1,0 +1,28 @@
+# Keeps the packaging consistent: one version across every manifest,
+# MCP configs that point at uxkin.com with no stored credentials, no
+# tokens anywhere, valid skills, and files that exist. Weekly (and by
+# hand) it also checks the library numbers we quote against uxkin.com.
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "41 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: 22
+      - name: Packaging checks
+        run: node scripts/check.mjs ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && '--live' || '' }}

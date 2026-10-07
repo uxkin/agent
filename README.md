@@ -17,11 +17,22 @@
 </p>
 
 <p align="center">
-  <a href="https://uxkin.com">Website</a> ·
-  <a href="https://uxkin.com/docs">Docs</a> ·
+  <a href="https://github.com/uxkin/agent/actions/workflows/checks.yml"><img alt="Checks" src="https://github.com/uxkin/agent/actions/workflows/checks.yml/badge.svg"></a>
+  <a href="https://github.com/uxkin/agent/actions/workflows/plugin-scan.yml"><img alt="Plugin scan" src="https://github.com/uxkin/agent/actions/workflows/plugin-scan.yml/badge.svg"></a>
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin/uxkin"><img alt="MCP Registry: io.github.uxkin/uxkin" src="https://img.shields.io/badge/MCP_Registry-io.github.uxkin%2Fuxkin-141414"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-C8F560"></a>
+</p>
+
+<p align="center">
+  <a href="https://uxkin.com/?utm_source=github&utm_medium=readme&utm_campaign=agent_repo"><strong>Explore UXKIN →</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://uxkin.com?utm_source=github&utm_medium=readme">Website</a> ·
+  <a href="https://uxkin.com/docs?utm_source=github&utm_medium=readme">Docs</a> ·
   <a href="https://claude.ai/directory/uxkin">Claude directory</a> ·
-  <a href="https://uxkin.com/pricing">Pricing</a> ·
-  <a href="https://uxkin.com/contact">Support</a>
+  <a href="https://uxkin.com/pricing?utm_source=github&utm_medium=readme">Pricing</a> ·
+  <a href="https://uxkin.com/contact?utm_source=github&utm_medium=readme">Support</a>
 </p>
 
 ---
@@ -39,9 +50,9 @@ the actual colors, type and components of real websites.
 | What | For | Cost |
 | :- | :- | :- |
 | [**`no-ui-slop` skill**](#1-install-the-free-no-ui-slop-skill) | Rules that keep your agent from shipping generic, AI-looking UI | Free, no account |
-| [**UXKIN MCP server**](#2-connect-the-uxkin-mcp-server) | Your agent searches real screens, journeys and design systems while it builds | [UXKIN plan](https://uxkin.com/pricing) |
+| [**UXKIN MCP server**](#2-connect-the-uxkin-mcp-server) | Your agent searches real screens, journeys and design systems while it builds | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) |
 | [**UI Check GitHub Action**](https://github.com/uxkin/ui-check) | Flags dead buttons, missing states, one-off colors and accessibility basics in every pull request | Free |
-| [**AI Slop Detector**](https://uxkin.com/tools/ai-slop-detector) | See how AI-generated your website looks, and what to change | Free |
+| [**AI Slop Detector**](https://uxkin.com/tools/ai-slop-detector?utm_source=github&utm_medium=readme) | See how AI-generated your website looks, and what to change | Free |
 | **UXKIN for Figma** | Search UXKIN, place screens and whole flows on the canvas, import a site's colors and type | Coming soon to Figma Community |
 | **Browser extension** | Copy any website's colors, fonts and sizes as a DESIGN.md | Coming soon to the Chrome Web Store |
 
@@ -65,14 +76,14 @@ apps sign in with your UXKIN account: no token to copy.
 | :- | :- |
 | **Claude** (web, desktop, mobile) | Open [UXKIN in Claude's directory](https://claude.ai/directory/uxkin), click **Connect**, log in and click **Allow** |
 | **Claude Code** | `claude mcp add --scope user --transport http uxkin https://uxkin.com/mcp`, then `/mcp` → uxkin → **Authenticate** |
-| **Cursor** | One-click install on [uxkin.com/cursor-ui-design](https://uxkin.com/cursor-ui-design), then **Login** next to uxkin |
+| **Cursor** | One-click install on [uxkin.com/cursor-ui-design](https://uxkin.com/cursor-ui-design?utm_source=github&utm_medium=readme), then **Login** next to uxkin |
 | **Codex** | `codex mcp add uxkin --url https://uxkin.com/mcp`, then `codex mcp login uxkin` (or install the [Codex plugin](#use-it-as-a-codex-plugin)) |
-| **GitHub Copilot** (VS Code) | Command Palette → **MCP: Add Server** → HTTP → `https://uxkin.com/mcp`, then sign in when asked ([guide](https://uxkin.com/github-copilot-ui-design)) |
-| **Lovable, Bolt, Devin Desktop** | Add a custom MCP server with the URL above ([Lovable](https://uxkin.com/lovable-ui-design), [Bolt](https://uxkin.com/bolt-ui-design), [Devin Desktop / Windsurf](https://uxkin.com/windsurf-ui-design)) |
-| **Any other MCP client** | Use the setup prompt from [uxkin.com](https://uxkin.com) (a token sent as `Authorization: Bearer <token>`) |
+| **GitHub Copilot** (VS Code) | Command Palette → **MCP: Add Server** → HTTP → `https://uxkin.com/mcp`, then sign in when asked ([guide](https://uxkin.com/github-copilot-ui-design?utm_source=github&utm_medium=readme)) |
+| **Lovable, Bolt, Devin Desktop** | Add a custom MCP server with the URL above ([Lovable](https://uxkin.com/lovable-ui-design?utm_source=github&utm_medium=readme), [Bolt](https://uxkin.com/bolt-ui-design?utm_source=github&utm_medium=readme), [Devin Desktop / Windsurf](https://uxkin.com/windsurf-ui-design?utm_source=github&utm_medium=readme)) |
+| **Any other MCP client** | Use the setup prompt from [uxkin.com](https://uxkin.com?utm_source=github&utm_medium=readme) (a token sent as `Authorization: Bearer <token>`) |
 
-Searching needs a UXKIN plan ([Monthly or Lifetime](https://uxkin.com/pricing)).
-You can disconnect any app from your [account](https://uxkin.com/account).
+Searching needs a UXKIN plan ([Monthly or Lifetime](https://uxkin.com/pricing?utm_source=github&utm_medium=readme)).
+You can disconnect any app from your [account](https://uxkin.com/account?utm_source=github&utm_medium=readme).
 
 ## Try it
 
@@ -163,14 +174,14 @@ The skill runs locally and sends nothing. The MCP server receives only the
 search text your agent sends (for example "onboarding for a meditation
 app"), the result limit and your sign-in, and returns matching references
 from uxkin.com. It doesn't read your code, files or conversation. See the
-[privacy policy](https://uxkin.com/privacy).
+[privacy policy](https://uxkin.com/privacy?utm_source=github&utm_medium=readme).
 
 ## Documentation and support
 
-- [Documentation](https://uxkin.com/docs): setup for every app, and what each tool returns.
-- [Guides](https://uxkin.com/guides): better UI with Claude Code, Cursor, Codex, Copilot, Lovable, Bolt and more.
-- [Support](https://uxkin.com/contact), or email support@uxkin.com.
-- [Affiliate program](https://uxkin.com/affiliates): earn 30% of every payment from people you bring to UXKIN.
+- [Documentation](https://uxkin.com/docs?utm_source=github&utm_medium=readme): setup for every app, and what each tool returns.
+- [Guides](https://uxkin.com/guides?utm_source=github&utm_medium=readme): better UI with Claude Code, Cursor, Codex, Copilot, Lovable, Bolt and more.
+- [Support](https://uxkin.com/contact?utm_source=github&utm_medium=readme), or email support@uxkin.com.
+- [Affiliate program](https://uxkin.com/affiliates?utm_source=github&utm_medium=readme): earn 30% of every payment from people you bring to UXKIN.
 
 ## Contributing and security
 
@@ -183,5 +194,5 @@ Fixes to the skill, setup steps and examples are welcome: see
 The skill and the files in this repository are MIT licensed. The UXKIN
 library itself (its screens, journeys and design systems) is a hosted
 service, not part of this repository: see the
-[terms](https://uxkin.com/terms). The MIT license covers the code and text
+[terms](https://uxkin.com/terms?utm_source=github&utm_medium=readme). The MIT license covers the code and text
 here; it doesn't grant use of the UXKIN name or logo.
