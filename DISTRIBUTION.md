@@ -42,8 +42,23 @@ up from another listing, nothing to submit, just confirm it appeared.
 | mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
 | Smithery | Publish page at smithery.ai/new | Listed: confirm it's current |
 | MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and skill, free queue) |
-| MCPServers.org | Submit form at mcpservers.org/submit | Submitted Oct 7 (Design, free) |
+| MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
+
+| Smithery | Publish page (remote server URL) | To do |
+| PulseMCP, LobeHub, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
+
+### Plugin and skill directories
+
+| Where | How it gets there | Status |
+|-------|-------------------|--------|
+| Claude Code plugin marketplace | [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json): `claude plugin marketplace add uxkin/agent` | Live |
+| Copilot CLI plugin marketplace | [`.github/plugin/marketplace.json`](.github/plugin/marketplace.json): `copilot plugin marketplace add uxkin/agent` | Live |
+| Claude Plugin Hub | Indexes plugin marketplaces on GitHub | Automatic: check a week after Oct 7 |
+| Skills Directory (skillsdirectory.com) | Submit form; security-grades each skill | To do |
+| Build with Claude, Tons of Skills, Agentic Awesome Skills, Tech Leads Club agent-skills | Pull request or issue on GitHub | To do |
+| awesome-mcp-list, awesome-ai-tools-for-ui, awesome-ai-plugins | Pull request on GitHub | To do |
+| DezignHunt (design tools) | Submit form | To do |
 
 ### AI apps
 
