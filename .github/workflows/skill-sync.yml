@@ -1,0 +1,34 @@
+name: Skill matches uxkin.com
+
+# The no-ui-slop skill is published in two places: here, and at
+# https://uxkin.com/.well-known/agent-skills/no-ui-slop/SKILL.md
+# (where agents discover it). This fails if the two copies differ.
+
+on:
+  push:
+    paths: ["skills/**", ".github/workflows/skill-sync.yml"]
+  pull_request:
+    paths: ["skills/**"]
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Compare with the published copy
+        run: |
+          for skill in skills/*/; do
+            name=$(basename "$skill")
+            curl -fsSL "https://uxkin.com/.well-known/agent-skills/$name/SKILL.md" -o /tmp/live.md
+            if ! diff -u /tmp/live.md "$skill/SKILL.md"; then
+              echo "::error::skills/$name/SKILL.md differs from the copy on uxkin.com"
+              exit 1
+            fi
+            echo "$name matches uxkin.com"
+          done
