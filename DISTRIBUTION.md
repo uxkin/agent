@@ -40,11 +40,11 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Reads the official registry | Automatic: confirm |
 | mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
-| MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and skill, free queue) |
+| MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and no-ui-slop skill, free queue). A second skill submission for uxkin-research was refused as a duplicate of the same repo: check both skills appear once it's live |
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
 
-| Smithery | Publish page (remote server URL) | To do |
+| [Smithery](https://smithery.ai/servers/ronaldmanlupig30/uxkin) | Published by URL; tools come from the server card ([`/.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json)). Republish (Releases → Publish, no token) after tool changes | Live: 5 tools, quality score 100 (Oct 8) |
 | PulseMCP, LobeHub, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
 
 ### Plugin and skill directories
@@ -91,6 +91,8 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Chrome Web Store | UXKIN.com extension: copy any website's colors, fonts and sizes as a DESIGN.md | In review |
 
 ## Keeping listings right
+
+- **After adding or changing tools**: republish on Smithery (Releases → Publish; leave the token empty, it reads the server card).
 
 - **Version bumps**: change `version` in `server.json` and the plugin
   manifests together; the registry workflow republishes on push.
