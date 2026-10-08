@@ -54,7 +54,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Claude Code plugin marketplace | [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json): `claude plugin marketplace add uxkin/agent` | Live |
 | Copilot CLI plugin marketplace | [`.github/plugin/marketplace.json`](.github/plugin/marketplace.json): `copilot plugin marketplace add uxkin/agent` | Live |
 | Claude Plugin Hub | Indexes plugin marketplaces on GitHub | Automatic: check a week after Oct 7 |
-| Skills Directory (skillsdirectory.com) | Submit form; security-grades each skill | To do |
+| [Skills Directory](https://www.skillsdirectory.com/skills/uxkin-no-ui-slop) | Submit form (repo link); security-graded before listing | no-ui-slop live, grade A 100/100 (Oct 8); uxkin-research: check |
 | Build with Claude, Tons of Skills, Agentic Awesome Skills, Tech Leads Club agent-skills | Pull request or issue on GitHub | To do |
 | awesome-mcp-list, awesome-ai-tools-for-ui, awesome-ai-plugins | Pull request on GitHub | To do |
 | DezignHunt (design tools) | Submit form | To do |

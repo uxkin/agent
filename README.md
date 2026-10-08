@@ -22,6 +22,7 @@
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin/uxkin"><img alt="MCP Registry: io.github.uxkin/uxkin" src="https://img.shields.io/badge/MCP_Registry-io.github.uxkin%2Fuxkin-141414"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-C8F560"></a>
   <a href="https://mcpservers.org/servers/uxkin/agent"><img alt="Listed on mcpservers.org" src="https://mcpservers.org/badge.svg"></a>
+  <a href="https://www.skillsdirectory.com/skills/uxkin-no-ui-slop"><img alt="Security: A (Skills Directory)" src="https://www.skillsdirectory.com/api/skills/uxkin-no-ui-slop/badge"></a>
 </p>
 
 <p align="center">
