@@ -21,6 +21,7 @@
   <a href="https://github.com/uxkin/agent/actions/workflows/plugin-scan.yml"><img alt="Plugin scan" src="https://github.com/uxkin/agent/actions/workflows/plugin-scan.yml/badge.svg"></a>
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin/uxkin"><img alt="MCP Registry: io.github.uxkin/uxkin" src="https://img.shields.io/badge/MCP_Registry-io.github.uxkin%2Fuxkin-141414"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-C8F560"></a>
+  <a href="https://mcpservers.org/servers/uxkin/agent"><img alt="Listed on mcpservers.org" src="https://mcpservers.org/badge.svg"></a>
 </p>
 
 <p align="center">
@@ -50,7 +51,7 @@ the actual colors, type and components of real websites.
 | What | For | Cost |
 | :- | :- | :- |
 | [**`no-ui-slop` skill**](#1-install-the-free-skills) | Rules that keep your agent from shipping generic, AI-looking UI | Free, no account |
-| [**`uxkin-research` skill**](#1-install-the-free-skills) | How your agent finds and compares real apps, flows and design systems before it designs | Free; searching needs a UXKIN plan |
+| [**`uxkin-research` skill**](#1-install-the-free-skills) | How your agent finds and compares real apps, flows and design systems before it designs | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) to search (the skill itself is MIT) |
 | [**UXKIN MCP server**](#2-connect-the-uxkin-mcp-server) | Your agent searches real screens, journeys and design systems while it builds | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) |
 | [**UI Check GitHub Action**](https://github.com/uxkin/ui-check) | Flags dead buttons, missing states, one-off colors and accessibility basics in every pull request | Free |
 | [**AI Slop Detector**](https://uxkin.com/tools/ai-slop-detector?utm_source=github&utm_medium=readme) | See how AI-generated your website looks, and what to change | Free |
