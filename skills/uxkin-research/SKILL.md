@@ -1,6 +1,6 @@
 ---
 name: uxkin-research
-description: 'Research how real products handle a screen, flow or visual style before designing it. Use when the person asks how other apps do something, wants UI inspiration, comparable apps, examples of a user flow (onboarding, sign-up, checkout, paywall, cancellation, account deletion, settings, empty states), or a design system to start from, and when a design decision needs evidence: search the UXKIN library of real iOS screens, full user journeys and website design systems, compare several, and report what they have in common.'
+description: 'Research how real products handle a screen, flow or visual style before designing it. Use when the person asks how other apps do something, wants UI inspiration or comparable apps, needs examples of a flow (onboarding, sign-up, checkout, paywall, cancellation, account deletion, empty states) or a design system to start from: search the UXKIN library of real iOS screens, user journeys and website design systems, compare several and report what they share.'
 license: MIT
 ---
 
