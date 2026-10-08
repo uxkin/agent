@@ -57,7 +57,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [Skills Directory](https://www.skillsdirectory.com/skills/uxkin-no-ui-slop) | Submit form (repo link); security-graded before listing | Live: no-ui-slop (grade A 100/100) and uxkin-research ([author page](https://www.skillsdirectory.com/authors/uxkin)), Oct 8 |
 | Build with Claude, Tons of Skills, Agentic Awesome Skills, Tech Leads Club agent-skills | Pull request or issue on GitHub | To do |
 | awesome-mcp-list, awesome-ai-tools-for-ui, awesome-ai-plugins | Pull request on GitHub | To do |
-| DezignHunt (design tools) | Submit form | To do |
+| DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
 
