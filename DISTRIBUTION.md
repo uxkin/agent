@@ -38,8 +38,8 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin) | `server.json`, published by the *Publish to MCP Registry* workflow | Live as `io.github.uxkin/uxkin` |
 | GitHub MCP Registry (github.com/mcp) | Curated by GitHub from the official registry | To check |
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
-| PulseMCP | Reads the official registry | Automatic: confirm |
-| mcp.directory | Reads the official registry, or its submit form | Automatic: confirm |
+| PulseMCP | Picks up servers from the Official MCP Registry | Submissions paused since Sep 3 (their notice); not listed yet as of Oct 9 |
+| mcp.directory | Submit forms (server from the GitHub repo; skills by SKILL.md link) | Submitted Oct 9: server, no-ui-slop and uxkin-research (Design); published within 24 hours |
 | MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and no-ui-slop skill, free queue). A second skill submission for uxkin-research was refused as a duplicate of the same repo: check both skills appear once it's live |
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
