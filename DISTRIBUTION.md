@@ -55,8 +55,13 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Copilot CLI plugin marketplace | [`.github/plugin/marketplace.json`](.github/plugin/marketplace.json): `copilot plugin marketplace add uxkin/agent` | Live |
 | Claude Plugin Hub | Indexes plugin marketplaces on GitHub | Automatic: check a week after Oct 7 |
 | [Skills Directory](https://www.skillsdirectory.com/skills/uxkin-no-ui-slop) | Submit form (repo link); security-graded before listing | Live: no-ui-slop (grade A 100/100) and uxkin-research ([author page](https://www.skillsdirectory.com/authors/uxkin)), Oct 8 |
-| Build with Claude, Tons of Skills, Agentic Awesome Skills, Tech Leads Club agent-skills | Pull request or issue on GitHub | To do |
-| awesome-mcp-list, awesome-ai-tools-for-ui, awesome-ai-plugins | Pull request on GitHub | To do |
+| [Build with Claude](https://github.com/davepoon/buildwithclaude) | Plugin entry in their marketplace.json (passes `npm run validate`) | Submitted Oct 9 (davepoon/buildwithclaude#396); they merge in batches every few days |
+| [Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills) | uxkin-research in their skill format plus a README credit (passes their strict validator and credit check) | Submitted Oct 9 (sickn33/agentic-awesome-skills#1848) |
+| [Tech Leads Club agent-skills](https://github.com/tech-leads-club/agent-skills) | Issue-first: proposed uxkin-research (their catalog already has a frontend-design skill); a maintainer adds it | Proposed Oct 9 (tech-leads-club/agent-skills#225) |
+| [awesome-mcp-list](https://github.com/MobinX/awesome-mcp-list) | One line in Developer Tools | Submitted Oct 9 (MobinX/awesome-mcp-list#702) |
+| [awesome-ai-tools-for-ui](https://github.com/maxbogo/awesome-ai-tools-for-ui) | One line in MCP Servers & Plugins, tool count 64 → 65 | Submitted Oct 9 (maxbogo/awesome-ai-tools-for-ui#59) |
+| [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | One line in Tools & Integrations; their source scan must score 80+ (ours: 100/100) | Submitted Oct 9 (hashgraph-online/awesome-ai-plugins#688) |
+| Tons of Skills | Pull request or issue on GitHub | To do: find the current list |
 | DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
