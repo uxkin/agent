@@ -40,7 +40,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Picks up servers from the Official MCP Registry | Submissions paused since Sep 3 (their notice); not listed yet as of Oct 9 |
 | mcp.directory | Submit forms (server from the GitHub repo; skills by SKILL.md link) | Submitted Oct 9: server, no-ui-slop and uxkin-research (Design); published within 24 hours |
-| MCP Market (mcpmarket.com) | Submit form | Submitted Oct 7 (server and no-ui-slop skill, free queue). A second skill submission for uxkin-research was refused as a duplicate of the same repo: check both skills appear once it's live |
+| MCP Market (mcpmarket.com) | Submit form | Live (mcpmarket.com/server/uxkin), confirmed Oct 9 |
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
 
@@ -65,6 +65,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [awesome-ai-tools-for-ui](https://github.com/maxbogo/awesome-ai-tools-for-ui) | One line in MCP Servers & Plugins, tool count 64 → 65 | Submitted Oct 9 (maxbogo/awesome-ai-tools-for-ui#59) |
 | [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | One line in Tools & Integrations; their source scan must score 80+ (ours: 100/100) | Submitted Oct 9 (hashgraph-online/awesome-ai-plugins#688) |
 | Tons of Skills | Pull request or issue on GitHub | To do: find the current list |
+| [DevHunt](https://devhunt.org) | Boosted launch ($29 one-time, Oct 9): name, slogan, description, 3 screenshots, maker comment | Launches Mon Oct 13 |
 | DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
