@@ -119,6 +119,16 @@ Once connected, ask your agent things like:
 
 All tools are read-only.
 
+It also offers ready-made prompts your app can show as commands (in
+Claude Code: `/mcp__uxkin__research_flow` and so on):
+
+| Prompt | What it asks your agent to do |
+|--------|-------------------------------|
+| `research_flow` | See how real apps handle a flow (onboarding, checkout, paywall…) and recommend one |
+| `find_design_system` | Find real website design systems that fit your product and mood |
+| `review_my_ui` | Compare a screen in your project with real apps and suggest fixes |
+| `build_from_collection` | Start from references you saved on uxkin.com |
+
 ## What's in this repository
 
 - **The `no-ui-slop` and `uxkin-research` skills** ([`skills`](skills)).
