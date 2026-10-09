@@ -35,6 +35,11 @@
   <a href="https://uxkin.com/?utm_source=github&utm_medium=readme&utm_campaign=agent_repo"><strong>Explore UXKIN →</strong></a>
 </p>
 
+
+
+https://github.com/user-attachments/assets/bc320cda-4a43-4baa-bdb9-cfdaccef6e49
+
+
 <p align="center">
   <a href="https://uxkin.com?utm_source=github&utm_medium=readme">Website</a> ·
   <a href="https://uxkin.com/docs?utm_source=github&utm_medium=readme">Docs</a> ·
