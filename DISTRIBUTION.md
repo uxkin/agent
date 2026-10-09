@@ -46,8 +46,9 @@ up from another listing, nothing to submit, just confirm it appeared.
 
 | [Awesome Remote MCP Servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Three-line entry in Art & Design with the Glama connector badge; their CI probes the endpoint (401 + resource_metadata = OAuth) | Live: merged Oct 9 (punkpeye/awesome-remote-mcp-servers#1473) |
 | [mcp.so](https://mcp.so/servers/uxkin) | Remote server listing: paid submission ($39, Oct 9; free submissions no longer offered) with description, overview, tags and OAuth | Live Oct 9 (Verified, Featured) |
+| [LobeHub](https://lobehub.com/mcp/uxkin-agent) | Picked up automatically as `uxkin-agent`; claimed with the README badge | Live Oct 9: "Unvalidated" (their install check can't sign in), claim pending |
 | [Smithery](https://smithery.ai/servers/ronaldmanlupig30/uxkin) | Published by URL; tools come from the server card ([`/.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json)). Republish (Releases → Publish, no token) after tool changes | Live: 5 tools, quality score 100 (Oct 8) |
-| PulseMCP, LobeHub, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
+| PulseMCP, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
 
 ### Plugin and skill directories
 

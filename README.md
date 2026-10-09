@@ -26,6 +26,12 @@
 </p>
 
 <p align="center">
+
+[![MCP Badge](https://lobehub.com/badge/mcp/uxkin-agent)](https://lobehub.com/mcp/uxkin-agent)
+
+</p>
+
+<p align="center">
   <a href="https://uxkin.com/?utm_source=github&utm_medium=readme&utm_campaign=agent_repo"><strong>Explore UXKIN →</strong></a>
 </p>
 
