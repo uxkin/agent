@@ -23,7 +23,7 @@
   "interface": {
     "displayName": "UXKIN",
     "shortDescription": "Real app screens, user flows and design systems for the UI you build",
-    "longDescription": "Adds the free no-ui-slop skill, which keeps Codex from shipping generic, AI-looking UI, and the UXKIN MCP server, which searches 63,589 real iOS screens, 1,991 user journeys and 1,288 website design systems. The skill works on its own; searching needs a UXKIN plan.",
+    "longDescription": "Adds the free no-ui-slop skill, which keeps Codex from shipping generic, AI-looking UI, and the UXKIN MCP server, which searches 500,000+ real screens and user journeys, 30k+ UI elements and 15k+ website design systems with a DESIGN.md. The skill works on its own; searching needs a UXKIN plan.",
     "developerName": "UXKIN",
     "category": "Coding",
     "capabilities": [

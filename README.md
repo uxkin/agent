@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <strong>63,589 iOS screens</strong> from 303 apps ·
-  <strong>1,991 user journeys</strong> ·
-  <strong>1,288 website design systems</strong>, each with a DESIGN.md
+  <strong>500,000+ real screens</strong> ·
+  <strong>30k+ UI elements</strong> ·
+  <strong>15k+ website design systems</strong>, each with a DESIGN.md
 </p>
 
 <p align="center">
