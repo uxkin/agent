@@ -66,7 +66,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Claude (connector directory) | The UXKIN connector: Claude app, Claude Code, Claude Desktop | Live |
 | Claude (plugin directory) | The UXKIN plugin, version 1.2.2 | Update in review |
 | Codex | Plugin from this repo: `codex plugin marketplace add uxkin/agent` | Live from GitHub; OpenAI directory listing in review |
-| Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live. Cursor marketplace (Oct 8): asked us to build adoption on cursor.directory first. cursor.directory: submitted Oct 8 (server and both skills), in its security scan; once it's public, ask the marketplace team again |
+| Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live. Cursor marketplace (Oct 8): asked us to build adoption on cursor.directory first. cursor.directory: live Oct 9 ([cursor.directory/plugins/uxkin](https://cursor.directory/plugins/uxkin), server and both skills); after some installs and votes there, ask the marketplace team again |
 | GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
 | GitHub Copilot CLI | Plugin from this repo ([`.github/plugin`](.github/plugin)): `copilot plugin install uxkin/agent` | Live from GitHub |
 | [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | Submitted Oct 7 (github/awesome-copilot#4626): passed intake, waiting for maintainer review |
