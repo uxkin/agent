@@ -44,7 +44,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
 
-| [Awesome Remote MCP Servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Three-line entry in Art & Design with the Glama connector badge; their CI probes the endpoint (401 + resource_metadata = OAuth) | Submitted Oct 9 (punkpeye/awesome-remote-mcp-servers#1473) |
+| [Awesome Remote MCP Servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Three-line entry in Art & Design with the Glama connector badge; their CI probes the endpoint (401 + resource_metadata = OAuth) | Live: merged Oct 9 (punkpeye/awesome-remote-mcp-servers#1473) |
 | [mcp.so](https://mcp.so/servers/uxkin) | Remote server listing: paid submission ($39, Oct 9; free submissions no longer offered) with description, overview, tags and OAuth | Live Oct 9 (Verified, Featured) |
 | [Smithery](https://smithery.ai/servers/ronaldmanlupig30/uxkin) | Published by URL; tools come from the server card ([`/.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json)). Republish (Releases → Publish, no token) after tool changes | Live: 5 tools, quality score 100 (Oct 8) |
 | PulseMCP, LobeHub, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
