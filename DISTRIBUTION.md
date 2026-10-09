@@ -65,7 +65,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [awesome-ai-tools-for-ui](https://github.com/maxbogo/awesome-ai-tools-for-ui) | One line in MCP Servers & Plugins, tool count 64 → 65 | Submitted Oct 9 (maxbogo/awesome-ai-tools-for-ui#59) |
 | [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | One line in Tools & Integrations; their source scan must score 80+ (ours: 100/100) | Submitted Oct 9 (hashgraph-online/awesome-ai-plugins#688) |
 | Tons of Skills | Pull request or issue on GitHub | To do: find the current list |
-| [DevHunt](https://devhunt.org) | Boosted launch ($29 one-time, Oct 9): name, slogan, description, 3 screenshots, maker comment | Launches Mon Oct 13 |
+| [DevHunt](https://devhunt.org) | Boosted launch ($29 one-time, Oct 9): name, slogan, description, 3 screenshots, maker comment | Launches Tue Oct 13 |
 | DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
