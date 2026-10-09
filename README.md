@@ -28,6 +28,7 @@
 <p align="center">
 
 [![MCP Badge](https://lobehub.com/badge/mcp/uxkin-agent)](https://lobehub.com/mcp/uxkin-agent)
+[![HOL Guard](https://img.shields.io/endpoint?url=https%3A%2F%2Fhol.org%2Fapi%2Fregistry%2Fbadges%2Fplugin%3Fslug%3Duxkin%252Fagent%26metric%3Dtrust)](https://hol.org/registry/plugins/uxkin%2Fagent)
 
 </p>
 
