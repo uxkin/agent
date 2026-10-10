@@ -98,7 +98,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 
 | Where | What | Status |
 |-------|------|--------|
-| Figma Community | UXKIN for Figma | Live; new version (code sign-in) in review |
+| Figma Community | UXKIN for Figma | Live; new version (code sign-in) in review: Figma asked for a demo video (request 2174131), screen recording sent Oct 10 |
 | Chrome Web Store | UXKIN.com extension: copy any website's colors, fonts and sizes as a DESIGN.md | In review |
 
 ## Keeping listings right
