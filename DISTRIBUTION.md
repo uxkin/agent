@@ -68,6 +68,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [DevHunt](https://devhunt.org) | Boosted launch ($29 one-time, Oct 9): name, slogan, description, 3 screenshots, maker comment | Launches Tue Oct 13 |
 | [Uneed](https://www.uneed.best/tool/uxkin) | Free listing (Freemium; tags Design, Developer Tools, AI) | Listed Oct 9 |
 | [SaaSHub](https://www.saashub.com/uxkin) | Free submission: categories, competitors (Mobbin, Refero, Page Flows, Nicely Done, pttrns, The Component Gallery, UX Archive), features, pricing, screenshots | Submitted Oct 9: free queue, up to 32 days |
+| [AlternativeTo](https://alternativeto.net) | Free submission: proprietary, freemium, tags UI Design, Design Inspiration, Design System, AI; alternative to Mobbin, Refero, Page Flows | Submitted Oct 10, in their review |
 | DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
