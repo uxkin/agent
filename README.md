@@ -66,7 +66,6 @@ the actual colors, type and components of real websites.
 | [**UI Check GitHub Action**](https://github.com/uxkin/ui-check) | Flags dead buttons, missing states, one-off colors and accessibility basics in every pull request | Free |
 | [**AI Slop Detector**](https://uxkin.com/tools/ai-slop-detector?utm_source=github&utm_medium=readme) | See how AI-generated your website looks, and what to change | Free |
 | **UXKIN for Figma** | Search UXKIN, place screens and whole flows on the canvas, import a site's colors and type | Coming soon to Figma Community |
-| **Browser extension** | Copy any website's colors, fonts and sizes as a DESIGN.md | Coming soon to the Chrome Web Store |
 
 ### 1. Install the free skills
 

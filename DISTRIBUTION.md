@@ -11,7 +11,6 @@ updating, it changes here in the same commit.
 | MCP server | `https://uxkin.com/mcp` (sign in with UXKIN, or a UXKIN agent token) | [`server.json`](server.json), [`.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json) |
 | `no-ui-slop` skill | [`uxkin.com/.well-known/agent-skills/`](https://uxkin.com/.well-known/agent-skills/index.json) | [`skills/no-ui-slop`](skills/no-ui-slop) (checked weekly by the *Skill matches uxkin.com* workflow) |
 | Plugins | This repository | Claude, Cursor, Codex, Gemini CLI and Antigravity packaging below |
-| Browser extension | The UXKIN site repository | Chrome Web Store |
 | Figma plugin | The UXKIN site repository | Figma Community |
 
 Production (uxkin.com) always wins: if a copy here differs from what
@@ -100,7 +99,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Where | What | Status |
 |-------|------|--------|
 | Figma Community | UXKIN for Figma | Live; new version (code sign-in) in review: Figma asked for a demo video (request 2174131), screen recording sent Oct 10 |
-| Chrome Web Store | UXKIN.com extension: copy any website's colors, fonts and sizes as a DESIGN.md | In review |
+| Chrome Web Store | UXKIN.com extension (copied any website's colors, fonts and sizes as a DESIGN.md) | Withdrawn Oct 11: removed from the store, so no new installs; existing installs work offline only. The Privacy Policy keeps its extension paragraph for those for now |
 
 ## Keeping listings right
 
