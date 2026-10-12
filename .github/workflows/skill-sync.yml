@@ -1,7 +1,7 @@
 name: Skill matches uxkin.com
 
-# The no-ui-slop skill is published in two places: here, and at
-# https://uxkin.com/.well-known/agent-skills/no-ui-slop/SKILL.md
+# The skills are published in two places: here, and at
+# https://uxkin.com/.well-known/agent-skills/<name>/SKILL.md
 # (where agents discover it). This fails if the two copies differ.
 
 on:

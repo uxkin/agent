@@ -61,6 +61,11 @@ the actual colors, type and components of real websites.
 | What | For | Cost |
 | :- | :- | :- |
 | [**`no-ui-slop` skill**](#1-install-the-free-skills) | Rules that keep your agent from shipping generic, AI-looking UI | Free, no account |
+| [**`build-ui` skill**](#1-install-the-free-skills) | A step-by-step workflow for new screens, dashboards, polish, simplifying and reviews that ends with a checked result | Free, no account |
+| [**`ios-screens` skill**](#1-install-the-free-skills) | iPhone screens that feel native: navigation, sheets, Dynamic Type, dark mode, permissions | Free, no account |
+| [**`design-md` skill**](#1-install-the-free-skills) | Writes a DESIGN.md for your project from what it really uses, so every new screen matches | Free, no account |
+| [**`ui-from-screenshot` skill**](#1-install-the-free-skills) | Turns a screenshot or mockup into matching UI with your own components, then compares side by side | Free, no account |
+| [**`ui-states` skill**](#1-install-the-free-skills) | Builds the states agents forget: empty, loading, error, offline, long content | Free, no account |
 | [**`uxkin-research` skill**](#1-install-the-free-skills) | How your agent finds and compares real apps, flows and design systems before it designs | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) to search (the skill itself is MIT) |
 | [**UXKIN MCP server**](#2-connect-the-uxkin-mcp-server) | Your agent searches real screens, journeys and design systems while it builds | [UXKIN plan](https://uxkin.com/pricing?utm_source=github&utm_medium=readme) |
 | [**UI Check GitHub Action**](https://github.com/uxkin/ui-check) | Flags dead buttons, missing states, one-off colors and accessibility basics in every pull request | Free |
@@ -73,7 +78,7 @@ the actual colors, type and components of real websites.
 npx skills add uxkin/agent
 ```
 
-That installs both, or copy them into your agent's skills folder:
+That installs all seven, or copy them into your agent's skills folder:
 
 - [`skills/no-ui-slop`](skills/no-ui-slop/SKILL.md): how to build UI that
   fits the product. Works on its own, with no account; with the UXKIN
@@ -82,6 +87,24 @@ That installs both, or copy them into your agent's skills folder:
 - [`skills/uxkin-research`](skills/uxkin-research/SKILL.md): how to research
   before designing: search the UXKIN library in plain words, open whole
   journeys, compare several apps and report what they have in common.
+- [`skills/build-ui`](skills/build-ui/SKILL.md): a plan for each kind of UI
+  job (new screen, dashboard, polish, simplify, review), finished by
+  rendering at phone and desktop sizes, fixing and checking again.
+- [`skills/ios-screens`](skills/ios-screens/SKILL.md): native iPhone UI in
+  SwiftUI, UIKit, React Native, Expo or Flutter, checked on small and large
+  iPhones, light and dark.
+- [`skills/design-md`](skills/design-md/SKILL.md): reads your project and
+  writes (or updates) its DESIGN.md: colors with roles, type scale,
+  spacing, components and rules for agents.
+- [`skills/ui-from-screenshot`](skills/ui-from-screenshot/SKILL.md): builds
+  a screenshot or mockup with your own components, then compares the result
+  with the image and fixes the differences.
+- [`skills/ui-states`](skills/ui-states/SKILL.md): finds and builds every
+  state of a screen (first use, empty, loading, error, offline, success)
+  and checks each one.
+
+All of them work on their own; with the UXKIN server connected they can
+also look up real screens, flows and design systems.
 
 ### 2. Connect the UXKIN MCP server
 
@@ -133,7 +156,7 @@ Claude Code: `/mcp__uxkin__research_flow` and so on):
 
 ## What's in this repository
 
-- **The `no-ui-slop` and `uxkin-research` skills** ([`skills`](skills)).
+- **The seven skills** ([`skills`](skills)): `no-ui-slop`, `uxkin-research`, `build-ui`, `ios-screens`, `design-md`, `ui-from-screenshot` and `ui-states`.
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
   ([`.codex-plugin`](.codex-plugin)), the Kiro power ([`POWER.md`](POWER.md)),
