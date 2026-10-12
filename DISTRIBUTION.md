@@ -38,7 +38,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | GitHub MCP Registry (github.com/mcp) | Curated by GitHub from the official registry | To check |
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Picks up servers from the Official MCP Registry | Submissions paused since Sep 3 (their notice); not listed yet as of Oct 9 |
-| mcp.directory | Submit forms (server from the GitHub repo; skills by SKILL.md link) | Submitted Oct 9: server, no-ui-slop and uxkin-research (Design); published within 24 hours |
+| mcp.directory | Submit forms (server from the GitHub repo; skills by SKILL.md link) | Submitted Oct 9: server, no-ui-slop and uxkin-research (Design); published within 24 hours. Submitted Oct 12: build-ui, ios-screens, design-md, ui-from-screenshot, ui-states (Design) |
 | MCP Market (mcpmarket.com) | Submit form | Live (mcpmarket.com/server/uxkin), confirmed Oct 9 |
 | MCPServers.org | Submit form at mcpservers.org/submit | Live ([mcpservers.org/servers/uxkin/agent](https://mcpservers.org/servers/uxkin/agent)) |
 | Cline MCP Marketplace | GitHub issue on cline/mcp-marketplace, with [`assets/logo-400.png`](assets/logo-400.png); Cline sets it up from [`llms-install.md`](llms-install.md) | Submitted Oct 7 |
