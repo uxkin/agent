@@ -263,3 +263,5 @@ library itself (its screens, journeys and design systems) is a hosted
 service, not part of this repository: see the
 [terms](https://uxkin.com/terms?utm_source=github&utm_medium=readme). The MIT license covers the code and text
 here; it doesn't grant use of the UXKIN name or logo.
+
+Listed in the [Claude Market MCP directory](https://www.claudemarket.ai/mcp)
