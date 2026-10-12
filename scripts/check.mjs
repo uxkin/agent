@@ -20,6 +20,8 @@ const check = (name, fn) => {
   } catch (error) {
     failures++;
     console.log(`FAIL  ${name}\n      ${error.message.split("\n").join("\n      ")}`);
+    // In GitHub Actions, also as an annotation (readable without the log).
+    if (process.env.GITHUB_ACTIONS) console.log(`::error title=${name}::${error.message.replace(/\n/g, " ")}`);
   }
 };
 
@@ -139,9 +141,21 @@ check("Kiro power: required fields, its server exists, steering files exist", ()
 // --live: the numbers we quote must not be bigger than the library
 // (never overclaim) or noticeably smaller (stale).
 if (process.argv.includes("--live")) {
-  const response = await fetch("https://uxkin.com/api/status");
-  const library = (await response.json()).library;
+  let library = null;
+  let problem = "";
+  try {
+    const response = await fetch("https://uxkin.com/api/status", { headers: { "User-Agent": "uxkin-agent-checks" } });
+    const body = await response.text();
+    try {
+      library = JSON.parse(body).library;
+    } catch {
+      problem = `uxkin.com/api/status answered ${response.status} without JSON: ${body.slice(0, 120)}`;
+    }
+  } catch (error) {
+    problem = `couldn't reach uxkin.com/api/status: ${error.message}`;
+  }
   check("library numbers quoted here match uxkin.com", () => {
+    assert.ok(!problem, problem);
     assert.ok(library, "uxkin.com/api/status has no library counts yet");
     const quoted = [
       ["README.md", read("README.md")],
