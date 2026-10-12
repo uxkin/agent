@@ -162,9 +162,9 @@ if (process.argv.includes("--live")) {
       [".codex-plugin/plugin.json", read(".codex-plugin/plugin.json")]
     ];
     const kinds = [
-      [/([\d,]+)\s+(?:real\s+)?iOS screens/g, library.screens, "screens"],
-      [/([\d,]+)\s+user journeys/g, library.journeys, "journeys"],
-      [/([\d,]+)\s+website design systems/g, library.websites, "websites"]
+      [/(\d[\d,]*)\s+(?:real\s+)?iOS screens/g, library.screens, "screens"],
+      [/(\d[\d,]*)\s+user journeys/g, library.journeys, "journeys"],
+      [/(\d[\d,]*)\s+website design systems/g, library.websites, "websites"]
     ];
     for (const [file, text] of quoted) {
       for (const [pattern, live, kind] of kinds) {
