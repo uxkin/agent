@@ -6,9 +6,9 @@ name: Skill matches uxkin.com
 
 on:
   push:
-    paths: ["skills/**", ".github/workflows/skill-sync.yml"]
+    paths: ["skills/**", ".agents/skills/**", ".github/workflows/skill-sync.yml"]
   pull_request:
-    paths: ["skills/**"]
+    paths: ["skills/**", ".agents/skills/**"]
   schedule:
     - cron: "17 6 * * 1"
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Compare with the published copy
         run: |
-          for skill in skills/*/; do
+          for skill in skills/*/ .agents/skills/*/; do
             name=$(basename "$skill")
             curl -fsSL "https://uxkin.com/.well-known/agent-skills/$name/SKILL.md" -o /tmp/live.md
             if ! diff -u /tmp/live.md "$skill/SKILL.md"; then

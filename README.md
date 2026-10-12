@@ -87,24 +87,26 @@ That installs all seven, or copy them into your agent's skills folder:
 - [`skills/uxkin-research`](skills/uxkin-research/SKILL.md): how to research
   before designing: search the UXKIN library in plain words, open whole
   journeys, compare several apps and report what they have in common.
-- [`skills/build-ui`](skills/build-ui/SKILL.md): a plan for each kind of UI
+- [`build-ui`](.agents/skills/build-ui/SKILL.md): a plan for each kind of UI
   job (new screen, dashboard, polish, simplify, review), finished by
   rendering at phone and desktop sizes, fixing and checking again.
-- [`skills/ios-screens`](skills/ios-screens/SKILL.md): native iPhone UI in
+- [`ios-screens`](.agents/skills/ios-screens/SKILL.md): native iPhone UI in
   SwiftUI, UIKit, React Native, Expo or Flutter, checked on small and large
   iPhones, light and dark.
-- [`skills/design-md`](skills/design-md/SKILL.md): reads your project and
+- [`design-md`](.agents/skills/design-md/SKILL.md): reads your project and
   writes (or updates) its DESIGN.md: colors with roles, type scale,
   spacing, components and rules for agents.
-- [`skills/ui-from-screenshot`](skills/ui-from-screenshot/SKILL.md): builds
+- [`ui-from-screenshot`](.agents/skills/ui-from-screenshot/SKILL.md): builds
   a screenshot or mockup with your own components, then compares the result
   with the image and fixes the differences.
-- [`skills/ui-states`](skills/ui-states/SKILL.md): finds and builds every
+- [`ui-states`](.agents/skills/ui-states/SKILL.md): finds and builds every
   state of a screen (first use, empty, loading, error, offline, success)
   and checks each one.
 
 All of them work on their own; with the UXKIN server connected they can
-also look up real screens, flows and design systems.
+also look up real screens, flows and design systems. The plugins below
+include `no-ui-slop` and `uxkin-research`; the other five install with
+the command above (they live in [`.agents/skills`](.agents/skills)).
 
 ### 2. Connect the UXKIN MCP server
 
@@ -156,7 +158,7 @@ Claude Code: `/mcp__uxkin__research_flow` and so on):
 
 ## What's in this repository
 
-- **The seven skills** ([`skills`](skills)): `no-ui-slop`, `uxkin-research`, `build-ui`, `ios-screens`, `design-md`, `ui-from-screenshot` and `ui-states`.
+- **The `no-ui-slop` and `uxkin-research` skills** ([`skills`](skills)). The five other skills are installed separately with `npx skills add uxkin/agent`.
 - **The UXKIN plugin** for Claude ([`.claude-plugin`](.claude-plugin)),
   Cursor ([`.cursor-plugin`](.cursor-plugin)) and Codex
   ([`.codex-plugin`](.codex-plugin)), the Kiro power ([`POWER.md`](POWER.md)),
