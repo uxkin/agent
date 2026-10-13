@@ -30,7 +30,7 @@ The skills and commands run inside your agent and send nothing anywhere. When th
 
 ## Support
 
-Email support@uxkin.com or open an issue at https://github.com/uxkin/agent/issues.
+Email support@uxkin.com or open an issue on [GitHub](https://github.com/uxkin/agent/issues).
 
 ## License
 

@@ -12,6 +12,9 @@
   "repository": "https://github.com/uxkin/agent",
   "license": "MIT",
   "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
   "keywords": [
     "ios",
     "mobile-app-design",
