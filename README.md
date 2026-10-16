@@ -121,7 +121,7 @@ apps sign in with your UXKIN account: no token to copy.
 | **Codex** | `codex mcp add uxkin --url https://uxkin.com/mcp`, then `codex mcp login uxkin` (or install the [Codex plugin](#use-it-as-a-codex-plugin)) |
 | **GitHub Copilot** (VS Code) | Command Palette → **MCP: Add Server** → HTTP → `https://uxkin.com/mcp`, then sign in when asked ([guide](https://uxkin.com/github-copilot-ui-design?utm_source=github&utm_medium=readme)) |
 | **Lovable, Bolt, Devin Desktop** | Add a custom MCP server with the URL above ([Lovable](https://uxkin.com/lovable-ui-design?utm_source=github&utm_medium=readme), [Bolt](https://uxkin.com/bolt-ui-design?utm_source=github&utm_medium=readme), [Devin Desktop / Windsurf](https://uxkin.com/windsurf-ui-design?utm_source=github&utm_medium=readme)) |
-| **Any other MCP client** | Use the setup prompt from [uxkin.com](https://uxkin.com?utm_source=github&utm_medium=readme) (a token sent as `Authorization: Bearer <token>`) |
+| **Any other MCP client** | Add `https://uxkin.com/mcp` and sign in, or follow the setup at [uxkin.com/docs](https://uxkin.com/docs?utm_source=github&utm_medium=readme) |
 
 Searching needs a UXKIN plan ([Monthly or Lifetime](https://uxkin.com/pricing?utm_source=github&utm_medium=readme)).
 You can disconnect any app from your [account](https://uxkin.com/account?utm_source=github&utm_medium=readme).

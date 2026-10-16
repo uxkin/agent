@@ -17,11 +17,10 @@ copy.
 | [`connect/gemini.settings.json`](connect/gemini.settings.json) | Gemini CLI | `~/.gemini/settings.json`, then `/mcp auth uxkin` inside Gemini CLI |
 | [`connect/kiro.mcp.json`](connect/kiro.mcp.json) | Kiro | `~/.kiro/settings/mcp.json` (all projects) or `.kiro/settings/mcp.json`, then **Authenticate** when Kiro asks |
 | [`connect/vscode.mcp.json`](connect/vscode.mcp.json) | GitHub Copilot in VS Code | `.vscode/mcp.json` in your project, then **Allow** when VS Code asks to sign in |
-| [`connect/claude-code-token.mcp.json`](connect/claude-code-token.mcp.json) | Any setup that can't sign in | Uses a token from the `UXKIN_TOKEN` environment variable |
 
 Using the Claude app? Connect from [Claude's directory](https://claude.ai/directory/uxkin)
-instead. Get a token, if you need one, from [uxkin.com](https://uxkin.com)
-while logged in. Never commit it.
+instead. A tool that can't sign in? Follow the setup at
+[uxkin.com/docs](https://uxkin.com/docs).
 
 ## Worked examples
 

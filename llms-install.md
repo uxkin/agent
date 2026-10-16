@@ -29,15 +29,9 @@ When the client offers to authenticate the `uxkin` server, the user's
 browser opens a UXKIN page: they log in (or create an account) and click
 **Allow**. No API key is needed.
 
-If the client can't sign in to remote servers, use a token instead:
-
-1. The user opens https://uxkin.com, signs in, and copies an agent token
-   from the setup panel on the home page.
-2. Add it as a header (never commit or print the token):
-
-```json
-"headers": { "Authorization": "Bearer <the user's UXKIN token>" }
-```
+If the client can't sign in to remote servers, point the user to the
+setup instructions at https://uxkin.com/docs. Never ask for, print or
+store their UXKIN credentials.
 
 ## 3. Check it works
 
