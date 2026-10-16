@@ -1,7 +1,7 @@
 {
   "name": "mobile-app-design",
   "displayName": "Mobile App Design (iOS)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design and build iPhone app screens and flows that feel native: onboarding, sign-up, paywalls, permissions, settings and more, checked against Apple's conventions and real iOS apps. Optional: the UXKIN MCP server for 300+ real iOS apps and their full user journeys.",
   "author": {
     "name": "UXKIN",

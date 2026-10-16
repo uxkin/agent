@@ -21,7 +21,7 @@ UXKIN (https://uxkin.com) is a library of 300+ real iOS apps with their
 screens and complete user journeys. Connected, it lets you open real
 flows screen by screen. To connect it, the person:
 
-1. adds the MCP server `https://uxkin.com/mcp` (name: `uxkin`) in this
+1. adds the MCP server `https://uxkin.com/mcp/mobile` (name: `uxkin`) in this
    app's MCP settings, if it isn't there already,
 2. signs in with their UXKIN account when the app asks (searches need
    a UXKIN plan),

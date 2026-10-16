@@ -2,7 +2,7 @@
   "mcpServers": {
     "uxkin": {
       "type": "http",
-      "url": "https://uxkin.com/mcp"
+      "url": "https://uxkin.com/mcp/mobile"
     }
   }
 }

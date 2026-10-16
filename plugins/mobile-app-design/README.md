@@ -26,7 +26,7 @@ The skills and commands work on their own, with no account. The UXKIN connection
 
 ## What it sends
 
-The skills and commands run inside your agent and send nothing anywhere. When the UXKIN MCP server is connected, your agent sends its search words to `https://uxkin.com/mcp` and receives screens and journeys. See the [privacy policy](https://uxkin.com/privacy).
+The skills and commands run inside your agent and send nothing anywhere. When the UXKIN MCP server is connected, your agent sends its search words to `https://uxkin.com/mcp/mobile` and receives screens and journeys. See the [privacy policy](https://uxkin.com/privacy).
 
 ## Support
 

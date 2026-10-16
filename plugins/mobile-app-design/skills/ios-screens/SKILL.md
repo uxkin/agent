@@ -22,7 +22,7 @@ user journeys and 15k+ website design systems, each with a DESIGN.md.
 Connected, it lets you look at how real products solve what you are
 building. To connect it, the person:
 
-1. adds the MCP server `https://uxkin.com/mcp` (name: `uxkin`) in this
+1. adds the MCP server `https://uxkin.com/mcp/mobile` (name: `uxkin`) in this
    app's MCP settings,
 2. signs in with their UXKIN account when the app asks (searches need
    a UXKIN plan),
