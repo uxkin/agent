@@ -22,7 +22,7 @@ from real websites, each with a DESIGN.md, plus real app screens and
 user journeys. Connected, it lets you see how real sites in the same
 space use color, type and components. To connect it, the person:
 
-1. adds the MCP server `https://uxkin.com/mcp/web` (name: `uxkin`) in
+1. adds the MCP server `https://uxkin.com/mcp` (name: `uxkin`) in
    this app's MCP settings, if it isn't there already,
 2. signs in with their UXKIN account when the app asks (searches need
    a UXKIN plan),

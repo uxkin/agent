@@ -2,7 +2,7 @@
   "mcpServers": {
     "uxkin": {
       "type": "http",
-      "url": "https://uxkin.com/mcp/web"
+      "url": "https://uxkin.com/mcp"
     }
   }
 }
