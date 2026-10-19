@@ -1,4 +1,4 @@
-# UI Review
+# UI Design Review
 
 Review any app or website screen the way a senior designer would: look at the rendered result, list what to fix most important first, fix what you pick in your product's own style, and compare with how real products solve the same thing. By [UXKIN](https://uxkin.com).
 
@@ -7,7 +7,7 @@ Review any app or website screen the way a senior designer would: look at the re
 In Claude Code:
 
 ```
-/plugin install ui-review --marketplace uxkin/agent
+/plugin install ui-design-review --marketplace uxkin/agent
 ```
 
 ## What's inside
@@ -17,9 +17,9 @@ In Claude Code:
 | **ui-review** skill | Reviews a screen, page or flow on phone and desktop sizes and lists what to fix as must fix, should fix and nice to have, each with where it is and a concrete fix |
 | **ui-polish** skill | Fixes the findings you pick with your existing components and tokens, then checks the result rendered |
 | **ui-compare** skill | Compares a screen or flow with how real products handle the same moment, and says what to change |
-| `/ui-review:review` | Review a screen, page or flow |
-| `/ui-review:polish` | Fix the issues you pick |
-| `/ui-review:compare` | Compare with real products |
+| `/ui-design-review:review` | Review a screen, page or flow |
+| `/ui-design-review:polish` | Fix the issues you pick |
+| `/ui-design-review:compare` | Compare with real products |
 | UXKIN MCP server (optional) | Real iOS app screens and complete user journeys, and 15k+ design systems taken from real websites |
 
 The skills and commands work on their own, with no account. The UXKIN connection is optional: sign in with a UXKIN account when your app asks; searching the library needs a UXKIN plan.

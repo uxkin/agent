@@ -1,6 +1,6 @@
 {
-  "name": "ui-review",
-  "displayName": "UI Review",
+  "name": "ui-design-review",
+  "displayName": "UI Design Review",
   "version": "1.0.0",
   "description": "Review any app or website screen the way a senior designer would: look at the rendered result on phone and desktop, list what to fix most important first, fix the issues you pick in your app's own style, and compare with how real products solve the same thing. Optional: the UXKIN MCP server for real iOS app screens and user journeys and design systems from real websites.",
   "author": {
@@ -16,13 +16,13 @@
   "supportUrl": "https://github.com/uxkin/agent/issues",
   "documentationUrl": "https://uxkin.com/docs",
   "keywords": [
-    "ui-review",
+    "ui-design-review",
     "design-review",
+    "ui-review",
     "ux-audit",
     "accessibility",
     "ui-polish",
     "frontend",
-    "mobile",
     "mcp"
   ]
 }
