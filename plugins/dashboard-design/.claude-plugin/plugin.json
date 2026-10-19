@@ -1,0 +1,28 @@
+{
+  "name": "dashboard-design",
+  "displayName": "Dashboard Design",
+  "version": "1.0.0",
+  "description": "Design and build dashboards and admin panels people can actually read: a clear layout and navigation, the few numbers that matter on top, charts and tables that fit the data, filters, and loading, empty and error states, checked on desktop and phone. Optional: the UXKIN MCP server for real app screens and design systems from real SaaS websites.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "dashboard",
+    "admin-panel",
+    "saas",
+    "data-visualization",
+    "charts",
+    "tables",
+    "frontend",
+    "mcp"
+  ]
+}
