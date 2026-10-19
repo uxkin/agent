@@ -1,0 +1,28 @@
+{
+  "name": "swiftui-app-design",
+  "displayName": "SwiftUI App Design",
+  "version": "1.0.0",
+  "description": "Build SwiftUI screens and flows that feel like a real iPhone app: native navigation, lists, forms and sheets, Dynamic Type, dark mode and accessibility, onboarding, paywalls and settings planned from how real apps do them, and checked in previews on small and large iPhones. Optional: the UXKIN MCP server for 300+ real iOS apps and their full user journeys.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com/mobile",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "swiftui",
+    "ios",
+    "iphone",
+    "swift",
+    "xcode",
+    "onboarding",
+    "paywall",
+    "mcp"
+  ]
+}
