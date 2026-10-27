@@ -1,0 +1,28 @@
+{
+  "name": "paywall-pricing-design",
+  "displayName": "Paywall & Pricing Design",
+  "version": "1.0.0",
+  "description": "Design and build paywalls, upgrade screens and pricing pages that are clear and honest: the value first, real prices and renewal terms that match checkout, one obvious choice, Restore Purchases and close where needed, and every loading, error and already-subscribed state, checked on phone and desktop. Optional: the UXKIN MCP server for real app paywalls, trial flows and design systems from real websites.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "paywall",
+    "pricing-page",
+    "subscriptions",
+    "in-app-purchase",
+    "saas",
+    "conversion",
+    "frontend",
+    "mcp"
+  ]
+}
