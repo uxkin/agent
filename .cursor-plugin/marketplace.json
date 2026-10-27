@@ -5,12 +5,20 @@
     "email": "support@uxkin.com"
   },
   "metadata": {
-    "description": "UXKIN plugins for Cursor."
+    "description": "UXKIN plugins for Cursor: UXKIN, Website Design and Mobile App Design (iOS)."
   },
   "plugins": [
     {
       "name": "uxkin",
       "source": "."
+    },
+    {
+      "name": "website-design",
+      "source": "plugins/website-design"
+    },
+    {
+      "name": "mobile-app-design",
+      "source": "plugins/mobile-app-design"
     }
   ]
 }

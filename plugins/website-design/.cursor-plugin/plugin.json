@@ -1,0 +1,25 @@
+{
+  "name": "website-design",
+  "displayName": "Website Design",
+  "version": "1.0.0",
+  "description": "Design and build websites and landing pages that look like a real product, not AI output: pick a design direction from real websites, write it down as a DESIGN.md, build pages that work on phone and desktop, and review what you have. Optional: the UXKIN MCP server for 15k+ design systems taken from real websites, each with a DESIGN.md.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com/web",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "keywords": [
+    "website-design",
+    "landing-page",
+    "web-design",
+    "design-system",
+    "design-md",
+    "frontend",
+    "tailwind",
+    "mcp"
+  ],
+  "logo": "assets/logo.png"
+}
