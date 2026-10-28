@@ -35,7 +35,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Where | How it gets there | Status |
 |-------|-------------------|--------|
 | [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.uxkin) | `server.json`, published by the *Publish to MCP Registry* workflow | Live as `io.github.uxkin/uxkin` |
-| GitHub MCP Registry (github.com/mcp) | Curated by GitHub from the official registry | To check |
+| [GitHub MCP Registry](https://github.com/mcp/uxkin/uxkin) | Curated by GitHub from the official registry; one-click install in VS Code and GitHub Copilot | Live: approved Oct 22 (request 170197), listed by Oct 28 |
 | Glama | Reads the official registry | Live: claimed, OAuth health check passing |
 | PulseMCP | Picks up servers from the Official MCP Registry | Submissions paused since Sep 3 (their notice); not listed yet as of Oct 9 |
 | mcp.directory | Submit forms (server from the GitHub repo; skills by SKILL.md link) | Submitted Oct 9: server, no-ui-slop and uxkin-research (Design); published within 24 hours. Submitted Oct 12: build-ui, ios-screens, design-md, ui-from-screenshot, ui-states (Design). Oct 27: the Oct 9 server submission is still in their review (resubmitting says "already submitted"; not found by search yet). Submitted Oct 27: the nine skills of Website Design, Mobile App Design and Paywall & Pricing Design (Design), linked from their plugin branches |
