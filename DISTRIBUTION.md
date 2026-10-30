@@ -90,7 +90,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub and in the extensions gallery (confirmed Oct 28; shows 1.3.0 until a v1.3.1 release is published) |
 | Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form sent Oct 7 |
 | Kiro | Power from this repo ([`POWER.md`](POWER.md), [`steering/`](steering)): Powers → Add Custom Power → Import from GitHub | Live from GitHub; Kiro's curated directory has no public submission yet |
-| Zed | Extension store | Checked Oct 27: its MCP extensions are for servers that run locally, and Zed is moving to the official MCP Registry, where we're listed. Nothing to submit |
+| Zed | Extension store | Checked Oct 27: its MCP extensions are for servers that run locally, and Zed is moving to the official MCP Registry, where we're listed. Nothing to submit. Setup guide on uxkin.com (`/zed-ui-design`, sign-in with Authenticate) live Oct 30 |
 | Goose | Extensions directory (`documentation/static/servers.json`) | Not accepted (Oct 27): the directory no longer takes new servers and is moving to the official MCP Registry (their AGENTS.md); aaif-goose/goose#13175 closed. Covered by the registry listing |
 | Continue | Setup in the user's own config | Checked Oct 27: no public directory to submit to |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
