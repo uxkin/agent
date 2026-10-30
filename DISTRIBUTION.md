@@ -92,6 +92,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Kiro | Power from this repo ([`POWER.md`](POWER.md), [`steering/`](steering)): Powers → Add Custom Power → Import from GitHub | Live from GitHub; Kiro's curated directory has no public submission yet |
 | Zed | Extension store | Checked Oct 27: its MCP extensions are for servers that run locally, and Zed is moving to the official MCP Registry, where we're listed. Nothing to submit. Setup guide on uxkin.com (`/zed-ui-design`, sign-in with Authenticate) live Oct 30 |
 | Goose | Extensions directory (`documentation/static/servers.json`) | Not accepted (Oct 27): the directory no longer takes new servers and is moving to the official MCP Registry (their AGENTS.md); aaif-goose/goose#13175 closed. Covered by the registry listing |
+| Warp | Setup guide on uxkin.com (`/warp-ui-design`: Settings → Agents → MCP servers, browser sign-in) | Live Oct 30 |
 | Continue | Setup in the user's own config | Checked Oct 27: no public directory to submit to |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
 | Hermes Agent, Cline, OpenCode, JetBrains (Junie and AI Assistant), Kilo Code | Setup guides on uxkin.com (`/hermes-ui-design`, `/cline-ui-design`, `/opencode-ui-design`, `/jetbrains-ui-design`, `/kilo-code-ui-design`), each with sign-in setup and, where the app supports it, the free skills | Live Oct 29–30. Cline also has its own button in the setup panel; the others are in its "Also" line |
