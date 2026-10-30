@@ -45,7 +45,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 
 | [Awesome Remote MCP Servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Three-line entry in Art & Design with the Glama connector badge; their CI probes the endpoint (401 + resource_metadata = OAuth) | Live: merged Oct 9 (punkpeye/awesome-remote-mcp-servers#1473) |
 | [mcp.so](https://mcp.so/servers/uxkin) | Remote server listing: paid submission ($39, Oct 9; free submissions no longer offered) with description, overview, tags and OAuth | Live Oct 9 (Verified, Featured) |
-| [LobeHub](https://lobehub.com/mcp/uxkin-agent) | Picked up automatically as `uxkin-agent`; claimed with the README badge | Live Oct 9: "Unvalidated" (their install check can't sign in), claim pending |
+| [LobeHub](https://lobehub.com/mcp/uxkin-agent) | Picked up automatically as `uxkin-agent`; claimed with the README badge | Live Oct 9: "Unvalidated" (their install check can't sign in), claim pending. Refresh Metadata clicked Oct 28 |
 | [Smithery](https://smithery.ai/servers/ronaldmanlupig30/uxkin) | Published by URL; tools come from the server card ([`/.well-known/mcp/server-card.json`](https://uxkin.com/.well-known/mcp/server-card.json)). Republish (Releases → Publish, no token) after tool changes | Live: 5 tools, quality score 100 (Oct 8) |
 | PulseMCP, mcpserver.dev, mcprepository | Copied from the official registry or GitHub | Automatic: check a week after Oct 7 |
 
@@ -73,6 +73,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | [Uneed](https://www.uneed.best/tool/uxkin) | Free listing (Freemium; tags Design, Developer Tools, AI) | Listed Oct 9 |
 | [SaaSHub](https://www.saashub.com/uxkin) | Free submission: categories, competitors (Mobbin, Refero, Page Flows, Nicely Done, pttrns, The Component Gallery, UX Archive), features, pricing, screenshots | Submitted Oct 9: free queue, up to 32 days |
 | [AlternativeTo](https://alternativeto.net) | Free submission: proprietary, freemium, tags UI Design, Design Inspiration, Design System, AI; alternative to Mobbin, Refero, Page Flows | Submitted Oct 10, in their review |
+| [toools.design](https://toools.design) | Suggest a tool form | Submitted Oct 28: Website Design Plugin and Mobile App Design Plugin |
 | DezignHunt (design tools) | Submit form | Skipped Oct 8: paid listings only |
 
 ### AI apps
@@ -80,19 +81,21 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Where | What | Status |
 |-------|------|--------|
 | Claude (connector directory) | The UXKIN connector: Claude app, Claude Code, Claude Desktop | Live |
-| Claude (plugin directory) | The UXKIN plugin, version 1.2.2 | Update in review |
-| Codex | Plugin from this repo: `codex plugin marketplace add uxkin/agent` | Live from GitHub; OpenAI directory listing in review |
+| Claude (plugin directory) | The UXKIN plugin and the design plugins | Live: Website Design and Mobile App Design. In review (as of Oct 29): UXKIN 1.3.1, UI Design Review, Dashboard Design, SwiftUI App Design, Paywall & Pricing Design |
+| Codex | Plugin from this repo: `codex plugin marketplace add uxkin/agent` | Live from GitHub. OpenAI directory: UXKIN 1.3.1 and Website Design in review since Oct 27 |
 | Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live. Cursor marketplace (Oct 8): asked us to build adoption on cursor.directory first. cursor.directory: live Oct 9 ([cursor.directory/plugins/uxkin](https://cursor.directory/plugins/uxkin), server and both skills); after some installs and votes there, ask the marketplace team again. cursor.directory, Oct 27: Website Design and Mobile App Design listed with the Manual form (MCP server plus three skills each; the Auto scan only reads a repository's default branch and merges every plugin it finds into one listing); verification requested. Edits are by hand on cursor.directory. The Cursor versions of all plugins live only on the `cursor-plugins` branch, never main |
 | GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
 | GitHub Copilot CLI | Plugin from this repo ([`.github/plugin`](.github/plugin)): `copilot plugin install uxkin/agent` | Live from GitHub |
 | [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | Not accepted (Oct 12): #4626 closed by the maintainer as "primarily a marketing channel for a narrow paid hosted service"; the older skill-only PR #4183 was closed as a duplicate (overlaps their anti-ui-slop skill). Don't resubmit unless the plugin offers clearly more free value. Copilot users are still served by the one-click VS Code link and `copilot plugin install uxkin/agent` |
-| Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub; gallery topic added Oct 7 |
+| Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub and in the extensions gallery (confirmed Oct 28; shows 1.3.0 until a v1.3.1 release is published) |
 | Google Antigravity | Steps on uxkin.com; plugin from this repo | Live from GitHub; marketplace interest form sent Oct 7 |
 | Kiro | Power from this repo ([`POWER.md`](POWER.md), [`steering/`](steering)): Powers → Add Custom Power → Import from GitHub | Live from GitHub; Kiro's curated directory has no public submission yet |
 | Zed | Extension store | Checked Oct 27: its MCP extensions are for servers that run locally, and Zed is moving to the official MCP Registry, where we're listed. Nothing to submit |
 | Goose | Extensions directory (`documentation/static/servers.json`) | Not accepted (Oct 27): the directory no longer takes new servers and is moving to the official MCP Registry (their AGENTS.md); aaif-goose/goose#13175 closed. Covered by the registry listing |
 | Continue | Setup in the user's own config | Checked Oct 27: no public directory to submit to |
 | Devin Desktop (Windsurf), Lovable, Bolt | Setup guides on uxkin.com | Live |
+| Hermes Agent, Cline, OpenCode, JetBrains (Junie and AI Assistant), Kilo Code | Setup guides on uxkin.com (`/hermes-ui-design`, `/cline-ui-design`, `/opencode-ui-design`, `/jetbrains-ui-design`, `/kilo-code-ui-design`), each with sign-in setup and, where the app supports it, the free skills | Live Oct 29–30. Cline also has its own button in the setup panel; the others are in its "Also" line |
+| Kilo Code (Kilo Marketplace) | MCP entry `mcps/uxkin` (sign in with UXKIN, or an agent token) with companion skills no-ui-slop and uxkin-research, imported pinned to commit 693e432 | In review: submitted Oct 30 (Kilo-Org/kilo-marketplace#560). When live, mention it in the Kilo Code guide |
 
 ### Skills
 
