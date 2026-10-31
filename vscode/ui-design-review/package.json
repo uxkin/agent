@@ -1,0 +1,71 @@
+{
+  "name": "ui-design-review",
+  "displayName": "UI Design Review",
+  "description": "Review any app or website screen like a senior designer: check the rendered result on phone and desktop, list what to fix most important first, fix it in your app's own style, and compare with real products.",
+  "version": "1.0.0",
+  "publisher": "uxkin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxkin/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues",
+    "email": "support@uxkin.com"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "ui review",
+    "design review",
+    "ux",
+    "ui",
+    "accessibility",
+    "polish",
+    "frontend",
+    "design",
+    "copilot",
+    "audit"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/ui-review/SKILL.md"
+      },
+      {
+        "path": "./skills/ui-polish/SKILL.md"
+      },
+      {
+        "path": "./skills/ui-compare/SKILL.md"
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "ui-design-review.mcp",
+        "label": "UXKIN (UI Design Review)"
+      }
+    ]
+  }
+}

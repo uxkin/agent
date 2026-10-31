@@ -1,0 +1,72 @@
+{
+  "name": "website-design",
+  "displayName": "Website Design",
+  "description": "Design and build websites and landing pages that look like a real product, not AI output: a design direction from real websites written as a DESIGN.md, responsive pages, and reviews.",
+  "version": "1.0.0",
+  "publisher": "uxkin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxkin/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues",
+    "email": "support@uxkin.com"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "website",
+    "web design",
+    "landing page",
+    "design system",
+    "design.md",
+    "frontend",
+    "ui",
+    "responsive",
+    "copilot",
+    "tailwind",
+    "css"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/web-design-system/SKILL.md"
+      },
+      {
+        "path": "./skills/landing-page/SKILL.md"
+      },
+      {
+        "path": "./skills/web-review/SKILL.md"
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "website-design.mcp",
+        "label": "UXKIN (Website Design)"
+      }
+    ]
+  }
+}

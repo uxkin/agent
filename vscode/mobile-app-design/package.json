@@ -1,0 +1,72 @@
+{
+  "name": "mobile-app-design",
+  "displayName": "Mobile App Design",
+  "description": "Design and build iPhone app screens and flows that feel native: onboarding, sign-up, paywalls, permissions and settings, checked against Apple's conventions and real iOS apps.",
+  "version": "1.0.0",
+  "publisher": "uxkin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxkin/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues",
+    "email": "support@uxkin.com"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "ios",
+    "iphone",
+    "mobile app",
+    "app design",
+    "swiftui",
+    "react native",
+    "expo",
+    "flutter",
+    "onboarding",
+    "paywall",
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/ios-screens/SKILL.md"
+      },
+      {
+        "path": "./skills/ios-flows/SKILL.md"
+      },
+      {
+        "path": "./skills/ios-review/SKILL.md"
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "mobile-app-design.mcp",
+        "label": "UXKIN (Mobile App Design)"
+      }
+    ]
+  }
+}

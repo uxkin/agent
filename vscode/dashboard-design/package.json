@@ -1,0 +1,71 @@
+{
+  "name": "dashboard-design",
+  "displayName": "Dashboard Design",
+  "description": "Design and build dashboards and admin panels people can read: clear layout and navigation, the key numbers on top, charts and tables that fit the data, filters, and every loading, empty and error state.",
+  "version": "1.0.0",
+  "publisher": "uxkin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxkin/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues",
+    "email": "support@uxkin.com"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "dashboard",
+    "admin panel",
+    "saas",
+    "data table",
+    "charts",
+    "analytics",
+    "ui",
+    "design",
+    "frontend",
+    "copilot"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/dashboard-layout/SKILL.md"
+      },
+      {
+        "path": "./skills/data-display/SKILL.md"
+      },
+      {
+        "path": "./skills/dashboard-review/SKILL.md"
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "dashboard-design.mcp",
+        "label": "UXKIN (Dashboard Design)"
+      }
+    ]
+  }
+}

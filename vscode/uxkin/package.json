@@ -1,0 +1,70 @@
+{
+  "name": "uxkin",
+  "displayName": "UXKIN: Real UI References",
+  "description": "Real UI references for Copilot: skills that build UI from the product's own design system and real apps, plus UXKIN's library of real iOS screens, user journeys and website design systems.",
+  "version": "1.0.0",
+  "publisher": "uxkin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxkin/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues",
+    "email": "support@uxkin.com"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "ui",
+    "ux",
+    "design",
+    "ui design",
+    "design system",
+    "frontend",
+    "copilot",
+    "mcp",
+    "ui references",
+    "landing page",
+    "mobile app",
+    "ios"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/no-ui-slop/SKILL.md"
+      },
+      {
+        "path": "./skills/uxkin-research/SKILL.md"
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "uxkin.mcp",
+        "label": "UXKIN"
+      }
+    ]
+  }
+}
