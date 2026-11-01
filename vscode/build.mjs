@@ -309,6 +309,6 @@ for (const ext of EXTENSIONS) {
   if (packageAll) {
     fs.mkdirSync(path.join(OUT, "dist"), { recursive: true });
     const target = path.join(OUT, "dist", `${ext.id}-${ext.version}.vsix`);
-    execFileSync("npx", ["--yes", "@vscode/vsce", "package", "--no-dependencies", "-o", target], { cwd: dir, stdio: "inherit" });
+    execFileSync("npx", ["--yes", "@vscode/vsce@4.1.0", "package", "--no-dependencies", "-o", target], { cwd: dir, stdio: "inherit" });
   }
 }
