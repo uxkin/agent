@@ -2,6 +2,10 @@
 
 These skills help Copilot build iPhone screens and flows that feel native, in SwiftUI, UIKit, React Native, Expo or Flutter, planned from how real iOS apps handle the same flow. By [UXKIN](https://uxkin.com).
 
+![Mobile App Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/mobile-app-design.png)
+
+![Mobile App Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/2-journeys.png)
+
 ## What's inside
 
 | | What it does |

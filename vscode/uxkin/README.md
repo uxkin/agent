@@ -2,6 +2,12 @@
 
 Copilot designs better when it can look at how real products solve the same problem. This extension adds two UXKIN skills to Copilot Chat and connects UXKIN's library of real app screens, complete user journeys and website design systems. By [UXKIN](https://uxkin.com).
 
+![UXKIN: Real UI References](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/1-references.png)
+
+![UXKIN: Real UI References](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/2-journeys.png)
+
+![UXKIN: Real UI References](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/3-materials.png)
+
 ## What's inside
 
 | | What it does |

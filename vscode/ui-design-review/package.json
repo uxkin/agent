@@ -2,7 +2,7 @@
   "name": "ui-design-review",
   "displayName": "UI Design Review",
   "description": "Review any app or website screen like a senior designer: check the rendered result on phone and desktop, list what to fix most important first, fix it in your app's own style, and compare with real products.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "uxkin",
   "license": "MIT",
   "icon": "icon.png",

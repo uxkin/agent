@@ -2,6 +2,10 @@
 
 Dashboards built by AI usually show everything at once. These skills help Copilot pick the few numbers that matter, lay out navigation, choose charts and tables that fit the data, and design every state. By [UXKIN](https://uxkin.com).
 
+![Dashboard Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/dashboard-design.png)
+
+![Dashboard Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/3-materials.png)
+
 ## What's inside
 
 | | What it does |

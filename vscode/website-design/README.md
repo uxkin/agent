@@ -2,6 +2,10 @@
 
 Websites built by AI tend to look alike. These skills give Copilot a design direction taken from real websites, write it down as a DESIGN.md, build pages that work on phone and desktop, and review what you already have. By [UXKIN](https://uxkin.com).
 
+![Website Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/website-design.png)
+
+![Website Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/3-materials.png)
+
 ## What's inside
 
 | | What it does |

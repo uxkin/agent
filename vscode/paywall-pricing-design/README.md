@@ -2,6 +2,10 @@
 
 These skills help Copilot build paywalls and pricing pages people trust: the value first, real prices and renewal terms that match checkout, one obvious choice, and Restore Purchases and close where they're needed. By [UXKIN](https://uxkin.com).
 
+![Paywall & Pricing Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/paywall-pricing-design.png)
+
+![Paywall & Pricing Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/1-references.png)
+
 ## What's inside
 
 | | What it does |

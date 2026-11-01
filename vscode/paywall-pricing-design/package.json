@@ -2,7 +2,7 @@
   "name": "paywall-pricing-design",
   "displayName": "Paywall & Pricing Design",
   "description": "Design and build paywalls, upgrade screens and pricing pages that are clear and honest: value first, real prices and renewal terms, one obvious choice, and every loading, error and already-subscribed state.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "uxkin",
   "license": "MIT",
   "icon": "icon.png",

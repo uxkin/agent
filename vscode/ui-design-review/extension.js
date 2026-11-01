@@ -15,7 +15,7 @@ function activate(context) {
       vscode.lm.registerMcpServerDefinitionProvider(PROVIDER_ID, {
         onDidChangeMcpServerDefinitions: changed.event,
         provideMcpServerDefinitions: () => [
-          new vscode.McpHttpServerDefinition(SERVER_LABEL, vscode.Uri.parse(SERVER_URL), {}, "1.0.0")
+          new vscode.McpHttpServerDefinition(SERVER_LABEL, vscode.Uri.parse(SERVER_URL), {}, "1.0.1")
         ]
       })
     );

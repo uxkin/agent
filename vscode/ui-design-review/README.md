@@ -2,6 +2,10 @@
 
 Ask Copilot to review a screen and it often just restates the code. These skills make it look at the rendered result, rank what's wrong, fix what you pick in your app's own style, and compare with how real products solve the same thing. By [UXKIN](https://uxkin.com).
 
+![UI Design Review](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/ui-design-review.png)
+
+![UI Design Review](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/1-references.png)
+
 ## What's inside
 
 | | What it does |

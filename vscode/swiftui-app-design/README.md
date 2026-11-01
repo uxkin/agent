@@ -2,6 +2,10 @@
 
 These skills help Copilot write SwiftUI that feels like a real iPhone app: native navigation and controls, Dynamic Type, dark mode and accessibility, with onboarding, paywalls and settings planned from how real apps do them. By [UXKIN](https://uxkin.com).
 
+![SwiftUI App Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/vscode/swiftui-app-design.png)
+
+![SwiftUI App Design](https://raw.githubusercontent.com/uxkin/agent/main/assets/screenshots/2-journeys.png)
+
 ## What's inside
 
 | | What it does |

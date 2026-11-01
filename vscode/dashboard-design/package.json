@@ -2,7 +2,7 @@
   "name": "dashboard-design",
   "displayName": "Dashboard Design",
   "description": "Design and build dashboards and admin panels people can read: clear layout and navigation, the key numbers on top, charts and tables that fit the data, filters, and every loading, empty and error state.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "uxkin",
   "license": "MIT",
   "icon": "icon.png",
