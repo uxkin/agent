@@ -20,6 +20,9 @@ const ROOT = process.cwd();
 const OUT = path.join(ROOT, "vscode");
 const PUBLISHER = process.env.VSCE_PUBLISHER || "uxkin";
 const REPO = "https://github.com/uxkin/agent";
+// Listing images live on main, so the Marketplace and Open VSX pages can load them.
+const IMAGE_BASE = "https://raw.githubusercontent.com/uxkin/agent/main/assets";
+const imageUrl = name => `${IMAGE_BASE}/${name.startsWith("vscode/") ? name : `screenshots/${name}`}.png`;
 
 const git = (...args) => execFileSync("git", args, { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 });
 
@@ -28,8 +31,9 @@ const git = (...args) => execFileSync("git", args, { cwd: ROOT, maxBuffer: 64 * 
 const EXTENSIONS = [
   {
     id: "uxkin",
+    images: ["1-references", "2-journeys", "3-materials"],
     displayName: "UXKIN: Real UI References",
-    version: "1.0.0",
+    version: "1.0.1",
     from: null,
     skills: ["no-ui-slop", "uxkin-research"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -47,8 +51,9 @@ const EXTENSIONS = [
   },
   {
     id: "website-design",
+    images: ["vscode/website-design", "3-materials"],
     displayName: "Website Design",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "07e8f5f", dir: "plugins/website-design" },
     skills: ["web-design-system", "landing-page", "web-review"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -67,8 +72,9 @@ const EXTENSIONS = [
   },
   {
     id: "mobile-app-design",
+    images: ["vscode/mobile-app-design", "2-journeys"],
     displayName: "Mobile App Design",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "0c44dd6", dir: "plugins/mobile-app-design" },
     skills: ["ios-screens", "ios-flows", "ios-review"],
     mcpUrl: "https://uxkin.com/mcp/mobile",
@@ -87,8 +93,9 @@ const EXTENSIONS = [
   },
   {
     id: "ui-design-review",
+    images: ["vscode/ui-design-review", "1-references"],
     displayName: "UI Design Review",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "ebd88d2", dir: "plugins/ui-design-review" },
     skills: ["ui-review", "ui-polish", "ui-compare"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -107,8 +114,9 @@ const EXTENSIONS = [
   },
   {
     id: "dashboard-design",
+    images: ["vscode/dashboard-design", "3-materials"],
     displayName: "Dashboard Design",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "4137430", dir: "plugins/dashboard-design" },
     skills: ["dashboard-layout", "data-display", "dashboard-review"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -127,8 +135,9 @@ const EXTENSIONS = [
   },
   {
     id: "swiftui-app-design",
+    images: ["vscode/swiftui-app-design", "2-journeys"],
     displayName: "SwiftUI App Design",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "0d9eef2", dir: "plugins/swiftui-app-design" },
     skills: ["swiftui-screens", "swiftui-flows", "swiftui-review"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -147,8 +156,9 @@ const EXTENSIONS = [
   },
   {
     id: "paywall-pricing-design",
+    images: ["vscode/paywall-pricing-design", "1-references"],
     displayName: "Paywall & Pricing Design",
-    version: "1.0.0",
+    version: "1.0.1",
     from: { ref: "ddf2946", dir: "plugins/paywall-pricing-design" },
     skills: ["app-paywall", "pricing-page-layout", "paywall-review"],
     mcpUrl: "https://uxkin.com/mcp",
@@ -224,6 +234,8 @@ function readme(ext) {
 
 ${ext.intro} By [UXKIN](https://uxkin.com).
 
+${ext.images.map(name => `![${ext.displayName}](${imageUrl(name)})`).join("\n\n")}
+
 ## What's inside
 
 | | What it does |
@@ -297,7 +309,7 @@ for (const ext of EXTENSIONS) {
   write(path.join(dir, "package.json"), JSON.stringify(manifest(ext), null, 2) + "\n");
   write(path.join(dir, "extension.js"), EXTENSION_JS(ext));
   write(path.join(dir, "README.md"), readme(ext));
-  write(path.join(dir, "CHANGELOG.md"), `# Changelog\n\n## ${ext.version}\n\nFirst release: ${ext.skills.join(", ")} and the UXKIN MCP server.\n`);
+  write(path.join(dir, "CHANGELOG.md"), `# Changelog\n\n## 1.0.1\n\nAdded pictures to the listing.\n\n## 1.0.0\n\nFirst release: ${ext.skills.join(", ")} and the UXKIN MCP server.\n`);
   write(path.join(dir, "LICENSE"), LICENSE);
   write(path.join(dir, "icon.png"), iconSource(ext));
   write(path.join(dir, ".vscodeignore"), "**/*.vsix\n");
