@@ -1,0 +1,90 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "uxkin",
+  "title": "UXKIN",
+  "description": "Search real iPhone app screens, user journeys and website design systems, and bring real UI references into Raycast AI.",
+  "icon": "extension-icon.png",
+  "author": "uxkin",
+  "categories": ["Design Tools", "Developer Tools"],
+  "license": "MIT",
+  "platforms": ["macOS", "Windows"],
+  "keywords": ["ui", "ux", "design", "inspiration", "screens", "design system", "ios", "mobile"],
+  "commands": [
+    {
+      "name": "search-ui-references",
+      "title": "Search UI References",
+      "subtitle": "UXKIN",
+      "description": "Search real app screens, user journeys and websites, for example paywall, onboarding or delete account.",
+      "mode": "view"
+    },
+    {
+      "name": "search-design-systems",
+      "title": "Search Design Systems",
+      "subtitle": "UXKIN",
+      "description": "Search design systems taken from real websites: colors with their roles, fonts, components and a DESIGN.md.",
+      "mode": "view"
+    },
+    {
+      "name": "my-collections",
+      "title": "My Collections",
+      "subtitle": "UXKIN",
+      "description": "Browse the screens, apps and websites you saved on UXKIN.",
+      "mode": "view"
+    }
+  ],
+  "tools": [
+    {
+      "name": "find-ui-references",
+      "title": "Find UI References",
+      "description": "Search UXKIN's library of real iOS app screens, user journeys (ordered multi-screen flows such as onboarding, subscribing or deleting an account) and websites. Works best with short queries: a flow or screen type, an app category or an app name. Search a few times with different words rather than one long sentence."
+    },
+    {
+      "name": "get-journey",
+      "title": "Get Journey",
+      "description": "Get every screen of one user journey from find-ui-references, in order, with each step's image and link. Use it to compare flows end to end."
+    },
+    {
+      "name": "find-ui-materials",
+      "title": "Find Design Systems",
+      "description": "Search design systems taken from real websites: colors with their roles, typography and components for each result, and the complete DESIGN.md for the top result. Query by industry, theme, brand color, style, font or site name."
+    },
+    {
+      "name": "list-collections",
+      "title": "List Collections",
+      "description": "List the collections the person saved on UXKIN, with how many items each holds."
+    },
+    {
+      "name": "get-collection",
+      "title": "Get Collection",
+      "description": "Get the saved screens, apps and websites in one of the person's UXKIN collections, by name or id."
+    }
+  ],
+  "ai": {
+    "skills": [
+      {
+        "name": "ui-design-research",
+        "title": "Research UI Design"
+      }
+    ]
+  },
+  "dependencies": {
+    "@raycast/api": "^2.10.1",
+    "@raycast/utils": "^2.3.3"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.1.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "prepublishOnly": "echo \"\\n\\nIt seems like you are trying to publish the Raycast extension to npm.\\n\\nIf you did intend to publish it to npm, remove the \\`prepublishOnly\\` script and rerun \\`npm publish\\` again.\\nIf you wanted to publish it to the Raycast Store instead, use \\`npm run publish\\` instead.\\n\\n\" && exit 1",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
