@@ -1,6 +1,6 @@
 {
   "name": "ui-design-review",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Review, compare and polish any interface against real products. Adds the ui-review, ui-compare and ui-polish skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real app screens and website design systems from UXKIN.",
   "keywords": [
     "ui-design-review",

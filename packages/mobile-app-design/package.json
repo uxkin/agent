@@ -1,6 +1,6 @@
 {
   "name": "mobile-app-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Design iOS app screens and flows from real apps, not AI guesses. Adds the ios-screens, ios-flows and ios-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 500,000+ real app screens and user journeys from UXKIN.",
   "keywords": [
     "mobile-app-design",

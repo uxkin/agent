@@ -1,33 +1,68 @@
-# mobile-app-design
+<p align="center">
+  <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design"><img src="https://raw.githubusercontent.com/uxkin/agent/cli/assets/npm/mobile-app-design.png" alt="Mobile App Design by UXKIN: iOS screens and flows designed from real apps, not AI guesses." width="100%"></a>
+</p>
 
-**Mobile App Design** by [UXKIN](https://uxkin.com). Real UI, not AI slop.
+<p align="center">
+  <a href="https://www.npmjs.com/package/mobile-app-design"><img src="https://img.shields.io/npm/v/mobile-app-design?color=6B4EFF&label=npm" alt="npm version"></a> <a href="https://www.npmjs.com/package/mobile-app-design"><img src="https://img.shields.io/npm/dm/mobile-app-design?color=C8F560&labelColor=141414" alt="downloads"></a> <img src="https://img.shields.io/badge/license-MIT-141414" alt="MIT license"> <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design"><img src="https://img.shields.io/badge/by-UXKIN-6B4EFF" alt="by UXKIN"></a>
+</p>
+
+<h3 align="center">iOS screens and flows designed from real apps, not AI guesses.</h3>
+
+<p align="center">A design plugin by <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design">UXKIN</a> for Claude Code, Cursor, Codex and other AI coding tools.<br><b>Real UI, not AI slop.</b></p>
+
+## Install in one line
 
 ```sh
 npx mobile-app-design
 ```
 
-Design iOS app screens and flows from real apps, not AI guesses. Adds the ios-screens, ios-flows and ios-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 500,000+ real app screens and user journeys from UXKIN.
+1. **Adds 3 design skills** to the AI coding tools you choose.
+2. **Connects UXKIN**, so those skills can look at 500,000+ real app screens and user journeys before they design.
+3. **Sign in once** in each tool, then just ask your AI.
 
 ## What you get
 
-- **ios-screens**: design iOS screens from real apps
-- **ios-flows**: plan whole user flows (onboarding, checkout, settings) the way real apps do
-- **ios-review**: review an app's screens against real products
+| Skill | What it does | Try asking |
+|---|---|---|
+| **`ios-screens`** | Designs iOS screens from how real apps lay them out | *"Design a settings screen"* |
+| **`ios-flows`** | Plans whole flows (onboarding, checkout, settings) the way real apps do | *"Design the onboarding for my app"* |
+| **`ios-review`** | Reviews your screens against real products | *"Review my app's home screen"* |
 
-The skills go into the AI coding tools on your computer that you choose (Claude Code, Cursor, Codex, GitHub Copilot, Windsurf, Antigravity, Kiro and more). Then UXKIN is connected to them, so the skills can look at real products first. Sign in to UXKIN once in each tool; searching needs a [UXKIN plan](https://uxkin.com/choose-plan). The skills also work on their own.
+## Works with
 
-Then ask your AI, for example: *"Design the onboarding for my iOS app"*.
+Claude Code · Cursor · Codex · GitHub Copilot (VS Code) · Windsurf · Antigravity · Kiro · Cline · and 15+ more tools that read agent skills.
+
+## Real UI behind it
+
+Your AI designs from [500,000+ real app screens and user journeys](https://uxkin.com/mobile?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design) on [UXKIN](https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design) instead of guessing. The skills also work on their own; the real references need a [UXKIN plan](https://uxkin.com/choose-plan?utm_source=npm&utm_medium=readme&utm_campaign=mobile-app-design).
 
 ## Options
 
 ```sh
 npx mobile-app-design --skills-only   # just the skills, no UXKIN connection
 npx mobile-app-design --yes           # don't ask: all your AI tools, for your user
+npx mobile-app-design --help
 ```
 
-The same as `npx uxkin add mobile-app-design`. More: [`uxkin`](https://www.npmjs.com/package/uxkin) (`npx uxkin --help`).
+<details>
+<summary><b>What changes on my computer?</b></summary>
 
-Requires Node.js 18.17 or newer.
+The skills are copied into your AI tools' skills folder (for most tools, `~/.agents/skills`). In each tool's settings, only a `uxkin` entry is added; your other settings stay as they are, and a copy of each settings file is kept next to it (`.uxkin-backup`) the first time. Sign-in happens on uxkin.com in your browser; your password never goes through the terminal.
+
+</details>
+
+## More from UXKIN
+
+| Command | What it is |
+|---|---|
+| [`npx uxkin`](https://www.npmjs.com/package/uxkin) | UXKIN CLI: setup, design, search |
+| [`npx website-design-skills`](https://www.npmjs.com/package/website-design-skills) | Website Design |
+| [`npx ui-design-review`](https://www.npmjs.com/package/ui-design-review) | UI Design Review |
+| [`npx dashboard-design`](https://www.npmjs.com/package/dashboard-design) | Dashboard Design |
+| [`npx swiftui-app-design`](https://www.npmjs.com/package/swiftui-app-design) | SwiftUI App Design |
+| [`npx paywall-pricing-design`](https://www.npmjs.com/package/paywall-pricing-design) | Paywall & Pricing Design |
+
+Requires Node.js 18.17 or newer. Same as `npx uxkin add mobile-app-design`.
 
 ## Source
 

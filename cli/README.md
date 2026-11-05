@@ -1,8 +1,16 @@
-# uxkin
+<p align="center">
+  <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=uxkin"><img src="https://raw.githubusercontent.com/uxkin/agent/cli/assets/npm/uxkin.png" alt="UXKIN: real UI for your AI" width="100%"></a>
+</p>
 
-Real UI references for you and your AI, from the terminal.
+<p align="center">
+  <a href="https://www.npmjs.com/package/uxkin"><img src="https://img.shields.io/npm/v/uxkin?color=6B4EFF&label=npm" alt="npm version"></a> <a href="https://www.npmjs.com/package/uxkin"><img src="https://img.shields.io/npm/dm/uxkin?color=C8F560&labelColor=141414" alt="downloads"></a> <img src="https://img.shields.io/badge/license-MIT-141414" alt="MIT license"> <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=uxkin"><img src="https://img.shields.io/badge/by-UXKIN-6B4EFF" alt="by UXKIN"></a>
+</p>
 
-[UXKIN](https://uxkin.com) is a library of real iOS app screens, user journeys and website design systems. This command connects it to your AI coding tools and brings design systems straight into your project, so your AI designs from real products instead of guessing.
+<h3 align="center">Real UI references for you and your AI, from the terminal.</h3>
+
+<p align="center"><a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=uxkin">UXKIN</a> is a library of 500,000+ real app screens, user journeys and 15k+ website design systems.<br>This command connects it to your AI coding tools and brings design systems straight into your project.</p>
+
+## Install in one line
 
 ```sh
 npx uxkin setup
@@ -72,6 +80,17 @@ npx uxkin logout    # sign out on this computer
 The sign-in is kept in `~/.config/uxkin/credentials.json` (on Windows, `%APPDATA%\uxkin`), readable only by you. You can disconnect it any time from your [UXKIN account](https://uxkin.com/account).
 
 Searching needs a UXKIN plan (Monthly or Lifetime): [uxkin.com/choose-plan](https://uxkin.com/choose-plan).
+
+## The design plugins
+
+| Command | What it adds |
+|---|---|
+| [`npx website-design-skills`](https://www.npmjs.com/package/website-design-skills) | Websites and landing pages from real design systems |
+| [`npx mobile-app-design`](https://www.npmjs.com/package/mobile-app-design) | iOS screens and flows from real apps |
+| [`npx ui-design-review`](https://www.npmjs.com/package/ui-design-review) | Review and polish any UI against real products |
+| [`npx dashboard-design`](https://www.npmjs.com/package/dashboard-design) | Dashboards and data screens |
+| [`npx swiftui-app-design`](https://www.npmjs.com/package/swiftui-app-design) | SwiftUI screens and flows |
+| [`npx paywall-pricing-design`](https://www.npmjs.com/package/paywall-pricing-design) | App paywalls and pricing pages |
 
 ## Source
 

@@ -1,33 +1,68 @@
-# paywall-pricing-design
+<p align="center">
+  <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design"><img src="https://raw.githubusercontent.com/uxkin/agent/cli/assets/npm/paywall-pricing-design.png" alt="Paywall & Pricing Design by UXKIN: App paywalls and pricing pages modeled on real products." width="100%"></a>
+</p>
 
-**Paywall & Pricing Design** by [UXKIN](https://uxkin.com). Real UI, not AI slop.
+<p align="center">
+  <a href="https://www.npmjs.com/package/paywall-pricing-design"><img src="https://img.shields.io/npm/v/paywall-pricing-design?color=6B4EFF&label=npm" alt="npm version"></a> <a href="https://www.npmjs.com/package/paywall-pricing-design"><img src="https://img.shields.io/npm/dm/paywall-pricing-design?color=C8F560&labelColor=141414" alt="downloads"></a> <img src="https://img.shields.io/badge/license-MIT-141414" alt="MIT license"> <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design"><img src="https://img.shields.io/badge/by-UXKIN-6B4EFF" alt="by UXKIN"></a>
+</p>
+
+<h3 align="center">App paywalls and pricing pages modeled on real products.</h3>
+
+<p align="center">A design plugin by <a href="https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design">UXKIN</a> for Claude Code, Cursor, Codex and other AI coding tools.<br><b>Real UI, not AI slop.</b></p>
+
+## Install in one line
 
 ```sh
 npx paywall-pricing-design
 ```
 
-Design app paywalls and pricing pages from real products. Adds the app-paywall, pricing-page-layout and paywall-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real paywalls, pricing pages and design systems from UXKIN.
+1. **Adds 3 design skills** to the AI coding tools you choose.
+2. **Connects UXKIN**, so those skills can look at real paywalls, pricing pages and design systems before they design.
+3. **Sign in once** in each tool, then just ask your AI.
 
 ## What you get
 
-- **app-paywall**: design app paywalls the way real apps do
-- **pricing-page-layout**: lay out website pricing pages and plan comparisons
-- **paywall-review**: review a paywall or pricing page and list what to fix
+| Skill | What it does | Try asking |
+|---|---|---|
+| **`app-paywall`** | Designs app paywalls the way real apps do | *"Design a paywall for my app"* |
+| **`pricing-page-layout`** | Lays out website pricing pages and plan comparisons | *"Build a pricing page with 3 plans"* |
+| **`paywall-review`** | Reviews a paywall or pricing page and lists what to fix | *"Review my paywall"* |
 
-The skills go into the AI coding tools on your computer that you choose (Claude Code, Cursor, Codex, GitHub Copilot, Windsurf, Antigravity, Kiro and more). Then UXKIN is connected to them, so the skills can look at real products first. Sign in to UXKIN once in each tool; searching needs a [UXKIN plan](https://uxkin.com/choose-plan). The skills also work on their own.
+## Works with
 
-Then ask your AI, for example: *"Design a paywall for my app"*.
+Claude Code · Cursor · Codex · GitHub Copilot (VS Code) · Windsurf · Antigravity · Kiro · Cline · and 15+ more tools that read agent skills.
+
+## Real UI behind it
+
+Your AI designs from [real paywalls, pricing pages and design systems](https://uxkin.com?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design) on [UXKIN](https://uxkin.com/?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design) instead of guessing. The skills also work on their own; the real references need a [UXKIN plan](https://uxkin.com/choose-plan?utm_source=npm&utm_medium=readme&utm_campaign=paywall-pricing-design).
 
 ## Options
 
 ```sh
 npx paywall-pricing-design --skills-only   # just the skills, no UXKIN connection
 npx paywall-pricing-design --yes           # don't ask: all your AI tools, for your user
+npx paywall-pricing-design --help
 ```
 
-The same as `npx uxkin add paywall-pricing-design`. More: [`uxkin`](https://www.npmjs.com/package/uxkin) (`npx uxkin --help`).
+<details>
+<summary><b>What changes on my computer?</b></summary>
 
-Requires Node.js 18.17 or newer.
+The skills are copied into your AI tools' skills folder (for most tools, `~/.agents/skills`). In each tool's settings, only a `uxkin` entry is added; your other settings stay as they are, and a copy of each settings file is kept next to it (`.uxkin-backup`) the first time. Sign-in happens on uxkin.com in your browser; your password never goes through the terminal.
+
+</details>
+
+## More from UXKIN
+
+| Command | What it is |
+|---|---|
+| [`npx uxkin`](https://www.npmjs.com/package/uxkin) | UXKIN CLI: setup, design, search |
+| [`npx website-design-skills`](https://www.npmjs.com/package/website-design-skills) | Website Design |
+| [`npx mobile-app-design`](https://www.npmjs.com/package/mobile-app-design) | Mobile App Design |
+| [`npx ui-design-review`](https://www.npmjs.com/package/ui-design-review) | UI Design Review |
+| [`npx dashboard-design`](https://www.npmjs.com/package/dashboard-design) | Dashboard Design |
+| [`npx swiftui-app-design`](https://www.npmjs.com/package/swiftui-app-design) | SwiftUI App Design |
+
+Requires Node.js 18.17 or newer. Same as `npx uxkin add paywall-pricing-design`.
 
 ## Source
 

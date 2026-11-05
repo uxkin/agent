@@ -1,6 +1,6 @@
 {
   "name": "paywall-pricing-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Design app paywalls and pricing pages from real products. Adds the app-paywall, pricing-page-layout and paywall-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real paywalls, pricing pages and design systems from UXKIN.",
   "keywords": [
     "paywall",
