@@ -1,0 +1,45 @@
+{
+  "name": "paywall-pricing-design",
+  "version": "1.0.0",
+  "description": "Design app paywalls and pricing pages from real products. Adds the app-paywall, pricing-page-layout and paywall-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real paywalls, pricing pages and design systems from UXKIN.",
+  "keywords": [
+    "paywall",
+    "pricing-page",
+    "subscription",
+    "in-app-purchase",
+    "conversion",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/paywall-pricing-design"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "paywall-pricing-design": "bin/paywall-pricing-design.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

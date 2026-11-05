@@ -1,0 +1,45 @@
+{
+  "name": "website-design",
+  "version": "1.0.0",
+  "description": "Design and build websites and landing pages that look like a real product, not AI output. Adds the landing-page, web-design-system and web-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 15k+ real website design systems from UXKIN.",
+  "keywords": [
+    "website-design",
+    "landing-page",
+    "web-design",
+    "design-system",
+    "design-md",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/website-design"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "website-design": "bin/website-design.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "mobile-app-design",
+  "version": "1.0.0",
+  "description": "Design iOS app screens and flows from real apps, not AI guesses. Adds the ios-screens, ios-flows and ios-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 500,000+ real app screens and user journeys from UXKIN.",
+  "keywords": [
+    "mobile-app-design",
+    "ios",
+    "app-design",
+    "ui-design",
+    "user-flows",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/mobile-app-design"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "mobile-app-design": "bin/mobile-app-design.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

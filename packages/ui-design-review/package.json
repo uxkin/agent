@@ -1,0 +1,45 @@
+{
+  "name": "ui-design-review",
+  "version": "1.0.0",
+  "description": "Review, compare and polish any interface against real products. Adds the ui-review, ui-compare and ui-polish skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real app screens and website design systems from UXKIN.",
+  "keywords": [
+    "ui-design-review",
+    "ui-review",
+    "design-review",
+    "ux-audit",
+    "accessibility",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/ui-design-review"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "ui-design-review": "bin/ui-design-review.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

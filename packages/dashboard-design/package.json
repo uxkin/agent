@@ -1,0 +1,45 @@
+{
+  "name": "dashboard-design",
+  "version": "1.0.0",
+  "description": "Design dashboards and data screens that look like real products. Adds the dashboard-layout, data-display and dashboard-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real app screens and design systems from UXKIN.",
+  "keywords": [
+    "dashboard-design",
+    "dashboard",
+    "admin-panel",
+    "data-visualization",
+    "saas",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/dashboard-design"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "dashboard-design": "bin/dashboard-design.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

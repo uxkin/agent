@@ -1,0 +1,45 @@
+{
+  "name": "swiftui-app-design",
+  "version": "1.0.0",
+  "description": "Build SwiftUI screens and flows from real iOS apps. Adds the swiftui-screens, swiftui-flows and swiftui-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 500,000+ real app screens and user journeys from UXKIN.",
+  "keywords": [
+    "swiftui",
+    "ios",
+    "swift",
+    "app-design",
+    "ui-design",
+    "ai",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "mcp",
+    "uxkin"
+  ],
+  "homepage": "https://uxkin.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxkin/agent.git",
+    "directory": "packages/swiftui-app-design"
+  },
+  "bugs": {
+    "url": "https://github.com/uxkin/agent/issues"
+  },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": {
+    "swiftui-app-design": "bin/swiftui-app-design.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "uxkin": "^1.1.0"
+  }
+}

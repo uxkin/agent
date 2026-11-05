@@ -22,6 +22,14 @@ Then sign in to UXKIN once inside each tool. Setup tells you where.
 
 Just one tool: `npx uxkin setup cursor`. See what it would do without changing anything: `npx uxkin setup --dry-run`.
 
+## Add a design plugin
+
+```sh
+npx uxkin add website-design
+```
+
+Adds a UXKIN design plugin's skills to the AI coding tools you choose, then connects UXKIN. The plugins: `website-design`, `mobile-app-design`, `ui-design-review`, `dashboard-design`, `swiftui-app-design` and `paywall-pricing-design` (each also has its own command, such as `npx website-design`). `npx uxkin add` lists them; `--skills-only` adds just the skills.
+
 ## Bring a real design system into your project
 
 ```sh

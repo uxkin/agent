@@ -5,6 +5,7 @@ import { parseArgs } from "node:util";
 
 import { callTool } from "../lib/api.mjs";
 import { CREDENTIALS_FILE, UXKIN_URL, isSignedIn, signIn, signOut } from "../lib/auth.mjs";
+import { PLUGIN_IDS, addPlugin, listPlugins } from "../lib/plugins.mjs";
 import { TOOL_IDS, setup } from "../lib/setup.mjs";
 import { UserError, bold, confirm, dim, fail, ok, purple, truncate } from "../lib/ui.mjs";
 
@@ -18,6 +19,8 @@ ${bold("Usage")}
 ${bold("Commands")}
   setup [tool…]          Connect UXKIN to the AI coding tools on this computer
                          (${TOOL_IDS.join(", ")})
+  add <plugin>           Add a design plugin's skills to your AI tools and connect UXKIN
+                         (${PLUGIN_IDS.join(", ")})
   design <site>          Save a real website's DESIGN.md into this folder
   search <words>         Search real app screens, user journeys and websites
   collections [name]     List your collections, or show what's in one
@@ -33,18 +36,20 @@ ${bold("Options")}
   --force                Replace an existing DESIGN.md without asking
   --yes                  Don't ask before connecting tools (setup)
   --dry-run              Show what setup would do, change nothing
+  --skills-only          Add a plugin's skills without connecting UXKIN (add)
   -v, --version          Show the version
   -h, --help             Show this help
 
 ${bold("Examples")}
   npx uxkin setup
+  npx uxkin add website-design
   npx uxkin design linear
   npx uxkin search "onboarding paywall"
   npx uxkin search duolingo --json
 
 Searching needs a UXKIN plan: ${UXKIN_URL}/choose-plan`;
 
-const COMMANDS = new Set(["setup", "design", "search", "collections", "login", "logout", "status", "help"]);
+const COMMANDS = new Set(["setup", "add", "design", "search", "collections", "login", "logout", "status", "help"]);
 
 function parse(argv) {
   const { values, positionals } = parseArgs({
@@ -58,6 +63,7 @@ function parse(argv) {
       force: { type: "boolean", default: false },
       yes: { type: "boolean", short: "y", default: false },
       "dry-run": { type: "boolean", default: false },
+      "skills-only": { type: "boolean", default: false },
       version: { type: "boolean", short: "v", default: false },
       help: { type: "boolean", short: "h", default: false },
     },
@@ -165,6 +171,9 @@ async function main() {
   switch (command) {
     case "setup":
       return setup({ only: rest, yes: options.yes, dryRun: options["dry-run"] });
+    case "add":
+      if (!rest.length) return listPlugins();
+      return addPlugin(rest[0], { yes: options.yes, skillsOnly: options["skills-only"] });
     case "design":
       return design(rest, options);
     case "search":
