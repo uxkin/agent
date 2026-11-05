@@ -28,7 +28,7 @@ Just one tool: `npx uxkin setup cursor`. See what it would do without changing a
 npx uxkin add website-design
 ```
 
-Adds a UXKIN design plugin's skills to the AI coding tools you choose, then connects UXKIN. The plugins: `website-design`, `mobile-app-design`, `ui-design-review`, `dashboard-design`, `swiftui-app-design` and `paywall-pricing-design` (each also has its own command, such as `npx website-design`). `npx uxkin add` lists them; `--skills-only` adds just the skills.
+Adds a UXKIN design plugin's skills to the AI coding tools you choose, then connects UXKIN. The plugins: `website-design`, `mobile-app-design`, `ui-design-review`, `dashboard-design`, `swiftui-app-design` and `paywall-pricing-design` (each also has its own command, such as `npx website-design-skills` or `npx mobile-app-design`). `npx uxkin add` lists them; `--skills-only` adds just the skills.
 
 ## Bring a real design system into your project
 

@@ -1,9 +1,9 @@
-# website-design
+# website-design-skills
 
 **Website Design** by [UXKIN](https://uxkin.com). Real UI, not AI slop.
 
 ```sh
-npx website-design
+npx website-design-skills
 ```
 
 Design and build websites and landing pages that look like a real product, not AI output. Adds the landing-page, web-design-system and web-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 15k+ real website design systems from UXKIN.
@@ -21,8 +21,8 @@ Then ask your AI, for example: *"Build a landing page for my app"*.
 ## Options
 
 ```sh
-npx website-design --skills-only   # just the skills, no UXKIN connection
-npx website-design --yes           # don't ask: all your AI tools, for your user
+npx website-design-skills --skills-only   # just the skills, no UXKIN connection
+npx website-design-skills --yes           # don't ask: all your AI tools, for your user
 ```
 
 The same as `npx uxkin add website-design`. More: [`uxkin`](https://www.npmjs.com/package/uxkin) (`npx uxkin --help`).

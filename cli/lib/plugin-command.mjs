@@ -6,7 +6,7 @@ import { UserError, bold, fail } from "./ui.mjs";
 
 /*
  * The command behind each design plugin's own npm package
- * (npx website-design, npx mobile-app-design, …): the same as
+ * (npx website-design-skills, npx mobile-app-design, …): the same as
  * npx uxkin add <plugin>.
  */
 export async function runPluginCommand(id, packageJsonUrl) {
@@ -21,12 +21,13 @@ export async function runPluginCommand(id, packageJsonUrl) {
         help: { type: "boolean", short: "h", default: false },
       },
     });
+    const { name, version } = JSON.parse(await readFile(packageJsonUrl, "utf8"));
     if (values.version) {
-      console.log(JSON.parse(await readFile(packageJsonUrl, "utf8")).version);
+      console.log(version);
       return;
     }
     if (values.help) {
-      console.log(`${bold(`npx ${id}`)} · ${plugin.name} by UXKIN
+      console.log(`${bold(`npx ${name}`)} · ${plugin.name} by UXKIN
 
 ${plugin.about}
 
