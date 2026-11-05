@@ -4,7 +4,7 @@ import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { promisify } from "node:util";
 
-import { MCP_URL } from "./auth.mjs";
+import { UXKIN_URL } from "./auth.mjs";
 import { UserError, bold, confirm, dim, fail, ok, skip } from "./ui.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -88,7 +88,10 @@ async function readJson(file) {
   return text.trim() ? JSON.parse(text) : {};
 }
 
-const TARGETS = [
+// The tools to connect, pointed at UXKIN's address for this command
+// (uxkin.com/mcp/cli, or a design plugin package's own one) so Admin →
+// Users shows where each account came from.
+const targetsFor = (MCP_URL) => [
   {
     id: "claude-code",
     name: "Claude Code",
@@ -130,7 +133,7 @@ const TARGETS = [
     entry: { url: MCP_URL },
     signIn: "In Cursor, open Settings → MCP and click Connect next to uxkin.",
   }),
-  vscodeTarget(),
+  vscodeTarget(MCP_URL),
   jsonTarget({
     id: "windsurf",
     name: "Windsurf",
@@ -162,7 +165,7 @@ const TARGETS = [
 
 // VS Code's own "code --add-mcp" when the code command is installed:
 // it understands the comments VS Code allows in its settings files.
-function vscodeTarget() {
+function vscodeTarget(MCP_URL) {
   const entry = { type: "http", url: MCP_URL };
   const file = jsonTarget({
     id: "vscode",
@@ -186,9 +189,10 @@ function vscodeTarget() {
   };
 }
 
-export const TOOL_IDS = TARGETS.map((target) => target.id);
+export const TOOL_IDS = targetsFor("").map((target) => target.id);
 
-export async function setup({ only = [], yes = false, dryRun = false } = {}) {
+export async function setup({ only = [], yes = false, dryRun = false, source = "cli" } = {}) {
+  const TARGETS = targetsFor(`${UXKIN_URL}/mcp/${source}`);
   const unknown = only.filter((id) => !TOOL_IDS.includes(id));
   if (unknown.length) throw new UserError(`Unknown tool: ${unknown.join(", ")}. Choose from: ${TOOL_IDS.join(", ")}.`);
 

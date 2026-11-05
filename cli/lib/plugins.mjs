@@ -93,5 +93,6 @@ export async function addPlugin(id, { yes = false, skillsOnly = false } = {}) {
 
   if (skillsOnly) return;
   console.log(`\n${bold("2. UXKIN connection")} ${dim("(real app screens, flows and website design systems for those skills)")}\n`);
-  await setup({ yes });
+  // Its own address on UXKIN, so Admin → Users shows "npm: <plugin>".
+  await setup({ yes, source: `npm-${id}` });
 }
