@@ -1,6 +1,6 @@
 {
   "name": "swiftui-app-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build SwiftUI screens and flows from real iOS apps. Adds the swiftui-screens, swiftui-flows and swiftui-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 500,000+ real app screens and user journeys from UXKIN.",
   "keywords": [
     "swiftui",

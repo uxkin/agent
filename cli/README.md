@@ -73,6 +73,10 @@ The sign-in is kept in `~/.config/uxkin/credentials.json` (on Windows, `%APPDATA
 
 Searching needs a UXKIN plan (Monthly or Lifetime): [uxkin.com/choose-plan](https://uxkin.com/choose-plan).
 
+## Source
+
+[github.com/uxkin/agent](https://github.com/uxkin/agent/tree/cli) (branch `cli`). Published from GitHub Actions with npm trusted publishing.
+
 ## License
 
 MIT

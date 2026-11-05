@@ -29,6 +29,10 @@ The same as `npx uxkin add swiftui-app-design`. More: [`uxkin`](https://www.npmj
 
 Requires Node.js 18.17 or newer.
 
+## Source
+
+[github.com/uxkin/agent](https://github.com/uxkin/agent/tree/cli) (branch `cli`). Published from GitHub Actions with npm trusted publishing.
+
 ## License
 
 MIT

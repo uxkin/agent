@@ -1,6 +1,6 @@
 {
   "name": "website-design-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design and build websites and landing pages that look like a real product, not AI output. Adds the landing-page, web-design-system and web-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects 15k+ real website design systems from UXKIN.",
   "keywords": [
     "website-design",

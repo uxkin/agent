@@ -1,6 +1,6 @@
 {
   "name": "dashboard-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design dashboards and data screens that look like real products. Adds the dashboard-layout, data-display and dashboard-review skills to Claude Code, Cursor, Codex and other AI coding tools, and connects real app screens and design systems from UXKIN.",
   "keywords": [
     "dashboard-design",
