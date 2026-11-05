@@ -88,7 +88,7 @@ up from another listing, nothing to submit, just confirm it appeared.
 | Cursor | The UXKIN plugin ([`.cursor-plugin`](.cursor-plugin)) and a one-click install link on uxkin.com | One-click link live. Cursor marketplace (Oct 8): asked us to build adoption on cursor.directory first. cursor.directory: live Oct 9 ([cursor.directory/plugins/uxkin](https://cursor.directory/plugins/uxkin), server and both skills); after some installs and votes there, ask the marketplace team again. cursor.directory, Oct 27: Website Design and Mobile App Design listed with the Manual form (MCP server plus three skills each; the Auto scan only reads a repository's default branch and merges every plugin it finds into one listing); verification requested. Edits are by hand on cursor.directory. The Cursor versions of all plugins live only on the `cursor-plugins` branch, never main |
 | GitHub Copilot (VS Code) | One-click "Add to VS Code" link on uxkin.com | Live |
 | VS Code Marketplace (publisher `uxkin`) | 7 extensions built from branch `vscode-extensions` with `vscode/build.mjs`: UXKIN and the six design plugins. Each adds its skills to Copilot chat and the UXKIN MCP server (browser sign-in) | Live Nov 1 (1.0.0). uxkin.com DNS record verified Nov 1 and the blue-check request sent to the Marketplace team (they also require 6 months in good standing, so it may come around May 2027) |
-| Open VSX (namespace `uxkin`; used by Cursor, Windsurf, VSCodium and other VS Code-based editors) | The same 7 extensions, published by hand with the Publish to Open VSX workflow (repository secret `OVSX_PAT`) | Published Nov 1 (1.0.0), shown as "Namespace not verified" until the ownership claim is approved (EclipseFdn/open-vsx.org#15107) |
+| Open VSX (namespace `uxkin`; used by Cursor, Windsurf, VSCodium and other VS Code-based editors) | The same 7 extensions, published by hand with the Publish to Open VSX workflow in the private site repository (secret `OVSX_PAT`; moved there Nov 2 so this repository forwards no credential) | Published Nov 1 (1.0.0), shown as "Namespace not verified" until the ownership claim is approved (EclipseFdn/open-vsx.org#15107) |
 | GitHub Copilot CLI | Plugin from this repo ([`.github/plugin`](.github/plugin)): `copilot plugin install uxkin/agent` | Live from GitHub |
 | [Awesome Copilot](https://github.com/github/awesome-copilot) | The plugin, through the external plugin issue form (passes their lint, install and version checks) | Not accepted (Oct 12): #4626 closed by the maintainer as "primarily a marketing channel for a narrow paid hosted service"; the older skill-only PR #4183 was closed as a duplicate (overlaps their anti-ui-slop skill). Don't resubmit unless the plugin offers clearly more free value. Copilot users are still served by the one-click VS Code link and `copilot plugin install uxkin/agent` |
 | Gemini CLI | `gemini extensions install https://github.com/uxkin/agent` | Live from GitHub and in the extensions gallery (confirmed Oct 28; shows 1.3.0 until a v1.3.1 release is published) |
@@ -112,6 +112,22 @@ up from another listing, nothing to submit, just confirm it appeared.
 | `npx skills add uxkin/agent` (skills.sh) | The skill, installable into most coding agents | Live. skills.sh has no submit form: a skill appears after its first install. The new plugin skills install from their branches, e.g. `npx skills add https://github.com/uxkin/agent/tree/website-design/plugins/website-design/skills` (tested Oct 27) |
 | `npx skills add https://uxkin.com` | The same skill, straight from uxkin.com | Live |
 | Skill collections on GitHub | Pull requests to community skill lists | To do: pick the active ones |
+
+### npm (command-line tools)
+
+Code on branch `cli` (`cli/` and `packages/<plugin>/`, banners in `assets/npm/`), never on a plugin branch. Published by hand from the private site repository: Actions → *Publish to npm* (inputs: ref `cli`, folder `cli` or `packages/<plugin>`). npm trusted publishing (no token; every package refuses tokens), staged: each new version waits in npm → Staged Packages until the owner approves it with the security key. Sign-ups show in Admin → Users as "Command-line tool (npx uxkin)" or "npm: <plugin>" (each connects through its own address, uxkin.com/mcp/cli or /mcp/npm-<plugin>).
+
+| Package | What it is | Status |
+|---|---|---|
+| [uxkin](https://www.npmjs.com/package/uxkin) | `npx uxkin`: `setup` connects UXKIN to Claude Code, Cursor, Codex, VS Code, Windsurf, Antigravity and Kiro; `design` saves a website's DESIGN.md; `search`, `collections`, `add <plugin>`; browser sign-in | Live Nov 5 (1.1.3) |
+| [website-design-skills](https://www.npmjs.com/package/website-design-skills) | Website Design plugin: its skills through the skills installer (skills.sh), then `setup`. npm refused the name `website-design` (too close to `web-site-design`) | Live Nov 5 (1.0.2) |
+| [mobile-app-design](https://www.npmjs.com/package/mobile-app-design) | Mobile App Design plugin, the same way | Live Nov 5 (1.0.2) |
+| [ui-design-review](https://www.npmjs.com/package/ui-design-review) | UI Design Review plugin | Live Nov 5 (1.0.2) |
+| [dashboard-design](https://www.npmjs.com/package/dashboard-design) | Dashboard Design plugin | Live Nov 5 (1.0.2) |
+| [swiftui-app-design](https://www.npmjs.com/package/swiftui-app-design) | SwiftUI App Design plugin | Live Nov 5 (1.0.2) |
+| [paywall-pricing-design](https://www.npmjs.com/package/paywall-pricing-design) | Paywall & Pricing Design plugin | Live Nov 5 (1.0.2) |
+
+The design packages read the skills from the plugin branches (only reading), so a plugin release reaches them on its own; never rename or delete those branches. On uxkin.com, `npx uxkin setup` and the six commands are at the bottom of the setup panel, the docs and the Claude Code, Cursor, Codex, GitHub Copilot and Windsurf guides (copies tracked as npx_setup_copied / npx_plugin_copied).
 
 ### Design tools and browsers
 
