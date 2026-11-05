@@ -1,0 +1,15 @@
+{
+  "name": "uxkin",
+  "version": "1.0.0",
+  "description": "UXKIN from your terminal: connect your AI coding tools, pull a real website's DESIGN.md into your project, and search real app screens and user journeys.",
+  "keywords": ["ui", "ux", "design", "design-system", "design-md", "mcp", "ai", "claude-code", "cursor", "codex", "ui-references", "app-screens"],
+  "homepage": "https://uxkin.com",
+  "repository": { "type": "git", "url": "git+https://github.com/uxkin/agent.git", "directory": "cli" },
+  "bugs": { "url": "https://github.com/uxkin/agent/issues" },
+  "license": "MIT",
+  "author": "UXKIN",
+  "type": "module",
+  "bin": { "uxkin": "bin/uxkin.mjs" },
+  "files": ["bin", "lib", "README.md", "LICENSE"],
+  "engines": { "node": ">=18.17" }
+}
