@@ -1,0 +1,28 @@
+{
+  "name": "app-redesign",
+  "displayName": "App Redesign",
+  "version": "1.0.0",
+  "description": "Redesign an existing app or website that looks generic or AI-built, without breaking it: capture every screen, choose a new direction from real products, apply it screen by screen with before and after screenshots, and check that every feature still works. Optional: the UXKIN MCP server for real app screens, user journeys and 15k+ design systems taken from real websites.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "redesign",
+    "restyle",
+    "reskin",
+    "ui-refresh",
+    "ai-slop",
+    "design-system",
+    "frontend",
+    "mcp"
+  ]
+}
