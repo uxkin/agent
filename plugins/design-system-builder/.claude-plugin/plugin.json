@@ -1,0 +1,28 @@
+{
+  "name": "design-system-builder",
+  "displayName": "Design System Builder",
+  "version": "1.0.0",
+  "description": "Give any app or website a real design system: choose a direction from real websites, write it down as a DESIGN.md, turn it into tokens and base components in the project, and audit how consistently the product follows it. Optional: the UXKIN MCP server for 15k+ design systems taken from real websites, each with a DESIGN.md.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "design-system",
+    "design-md",
+    "design-tokens",
+    "style-guide",
+    "tailwind-theme",
+    "ui-consistency",
+    "frontend",
+    "mcp"
+  ]
+}
