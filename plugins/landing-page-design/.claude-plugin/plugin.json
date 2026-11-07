@@ -1,0 +1,28 @@
+{
+  "name": "landing-page-design",
+  "displayName": "Landing Page Design",
+  "version": "1.0.0",
+  "description": "Plan, build and review landing pages that look like a real product, not a template: one clear visitor and action, a headline that says the result, real proof and screenshots, sections in the order visitors need them, fast, accessible and checked on desktop and phone. Optional: the UXKIN MCP server for 15k+ design systems taken from real websites.",
+  "author": {
+    "name": "UXKIN",
+    "email": "support@uxkin.com",
+    "url": "https://uxkin.com"
+  },
+  "homepage": "https://uxkin.com",
+  "repository": "https://github.com/uxkin/agent",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://uxkin.com/privacy",
+  "termsOfServiceUrl": "https://uxkin.com/terms",
+  "supportUrl": "https://github.com/uxkin/agent/issues",
+  "documentationUrl": "https://uxkin.com/docs",
+  "keywords": [
+    "landing-page",
+    "homepage",
+    "marketing-site",
+    "conversion",
+    "web-design",
+    "frontend",
+    "tailwind",
+    "mcp"
+  ]
+}
