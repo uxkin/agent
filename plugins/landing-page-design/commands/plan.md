@@ -1,5 +1,5 @@
 ---
-description: Plan a landing page: the visitor, the action, the sections and the copy
+description: "Plan a landing page: the visitor, the action, the sections and the copy"
 argument-hint: "[the product, who the page is for and the one action]"
 ---
 
