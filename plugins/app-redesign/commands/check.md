@@ -1,5 +1,5 @@
 ---
-description: Check a redesign: before and after, every flow and state, and what is left
+description: "Check a redesign: before and after, every flow and state, and what is left"
 argument-hint: "[which screens or flows to check]"
 ---
 
