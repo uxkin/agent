@@ -1,4 +1,0 @@
-# Add to ~/.codex/config.toml (or run: codex mcp add uxkin --url https://uxkin.com/mcp)
-# Then sign in once: codex mcp login uxkin
-[mcp_servers.uxkin]
-url = "https://uxkin.com/mcp"

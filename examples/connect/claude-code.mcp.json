@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "uxkin": {
-      "type": "http",
-      "url": "https://uxkin.com/mcp"
-    }
-  }
-}
